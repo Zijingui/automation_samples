@@ -1,6 +1,8 @@
 # @FileName  :test_deparements.py
 # @Time      :2022/11/26 12:34
 # @Author    :Zijin Gui
+import allure
+
 from pages.login_page import LoginPage
 from utils.log_utils import Logger
 from utils.mock_data import MyFaker
@@ -21,6 +23,9 @@ class TestDepartment:
         # 后置操作： 关闭浏览器进程
         self.index.close_broswer()
 
+    @allure.feature("部门管理")
+    @allure.story("添加部门")
+    @allure.severity(allure.severity_level.BLOCKER)
     def test_add_dept(self):
         '''测试添加部门'''
         res = self.index.goto_contact_page().goto_add_dept().edit_dept_info(self.dept_name).get_tips()

@@ -3,7 +3,9 @@
 # @Author    :Zijin Gui
 import time
 
+import allure
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
 from pages.add_dept_page import AddDeptPage
 from pages.add_mem_page import AddMemPage
@@ -20,18 +22,21 @@ class ContactPage(BasePage):
     def goto_add_members(self):
         '''点击添加成员 进入编辑成员信息页'''
         # 点击添加成员按钮 显示等待 直到在timeout内点击成功
-        self.logger.info("点击添加成员")
-        WebDriverWait(self.driver, 10).until(click_elemenmt)
+        with allure.step("点击添加成员"):
+            self.logger.info("点击添加成员")
+            WebDriverWait(self.driver, 10).until(click_elemenmt)
 
         return AddMemPage(self.driver)
 
     def goto_add_dept(self):
         '''点击添加部门 跳转到添加部门页面'''
-
-        self.logger.info("点击 + ")
-        self.do_click(self.__ADD_BTN)
-        self.logger.info("点击 添加部门")
-        self.do_click(self.__ADD_DEPT)
+        with allure.step("点击 +"):
+            self.logger.info("点击 + ")
+            # 元素需要加显示等待
+            self.do_click(*self.__ADD_BTN)
+        with allure.step("点击添加部门"):
+            self.logger.info("点击 添加部门")
+            self.do_click(*self.__ADD_DEPT)
 
         return AddDeptPage(self.driver)
 
@@ -40,5 +45,5 @@ class ContactPage(BasePage):
         self.logger.info("获取tips提示语")
         time.sleep(1)
 
-        return self.do_find(self.__TIPS).text
+        return self.do_find(*self.__TIPS).text
 

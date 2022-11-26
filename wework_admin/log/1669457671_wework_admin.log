@@ -1,0 +1,15 @@
+2022-11-26 18:14:31,648 - wework_admin_logger - INFO - 初始化driver
+2022-11-26 18:14:34,173 - wework_admin_logger - INFO - 植入cookie
+2022-11-26 18:14:34,223 - wework_admin_logger - INFO - 进入首页
+2022-11-26 18:14:36,364 - wework_admin_logger - INFO - 复用driver
+2022-11-26 18:14:36,429 - wework_admin_logger - INFO - 点击通讯录
+2022-11-26 18:14:36,472 - wework_admin_logger - INFO - 复用driver
+2022-11-26 18:14:36,477 - wework_admin_logger - INFO - 点击 + 
+2022-11-26 18:14:37,315 - wework_admin_logger - INFO - 点击 添加部门
+2022-11-26 18:14:37,377 - wework_admin_logger - INFO - 复用driver
+2022-11-26 18:14:37,431 - wework_admin_logger - INFO - 输入部门名称
+2022-11-26 18:14:37,514 - wework_admin_logger - INFO - 选择所属部门
+2022-11-26 18:14:37,635 - wework_admin_logger - INFO - 点击确定
+2022-11-26 18:14:37,698 - wework_admin_logger - INFO - 复用driver
+2022-11-26 18:14:37,709 - wework_admin_logger - INFO - 获取tips提示语
+2022-11-26 18:14:38,738 - wework_admin_logger - DEBUG - 断言添加部门成功

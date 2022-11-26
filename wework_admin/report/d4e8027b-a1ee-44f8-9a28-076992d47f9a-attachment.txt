@@ -1,0 +1,31 @@
+2022-11-26 23:05:25,291 - wework_admin_logger - INFO - 创建driver
+2022-11-26 23:05:27,932 - wework_admin_logger - INFO - 植入cookie
+2022-11-26 23:05:27,978 - wework_admin_logger - INFO - 进入首页
+2022-11-26 23:05:30,419 - wework_admin_logger - INFO - 复用已有的driver
+2022-11-26 23:05:30,487 - wework_admin_logger - INFO - 点击通讯录
+2022-11-26 23:05:30,487 - wework_admin_logger - INFO - 点击元素：id menu_contacts
+2022-11-26 23:05:30,487 - wework_admin_logger - INFO - 查找元素：id menu_contacts
+2022-11-26 23:05:30,536 - wework_admin_logger - INFO - 复用已有的driver
+2022-11-26 23:05:30,547 - wework_admin_logger - INFO - 点击 + 
+2022-11-26 23:05:30,548 - wework_admin_logger - INFO - 点击元素：css selector .member_colLeft_top_addBtn
+2022-11-26 23:05:30,549 - wework_admin_logger - INFO - 查找元素：css selector .member_colLeft_top_addBtn
+2022-11-26 23:05:31,575 - wework_admin_logger - INFO - 点击 添加部门
+2022-11-26 23:05:31,576 - wework_admin_logger - INFO - 点击元素：xpath //a[text()='添加部门']
+2022-11-26 23:05:31,576 - wework_admin_logger - INFO - 查找元素：xpath //a[text()='添加部门']
+2022-11-26 23:05:31,634 - wework_admin_logger - INFO - 复用已有的driver
+2022-11-26 23:05:31,694 - wework_admin_logger - INFO - 输入部门名称
+2022-11-26 23:05:31,694 - wework_admin_logger - INFO - 向元素xpath //label[text()='部门名称']/../input 输入内容：刘浩
+2022-11-26 23:05:31,694 - wework_admin_logger - INFO - 查找元素：xpath //label[text()='部门名称']/../input
+2022-11-26 23:05:31,772 - wework_admin_logger - INFO - 选择所属部门
+2022-11-26 23:05:31,773 - wework_admin_logger - INFO - 点击元素：xpath //span[text()='选择所属部门']
+2022-11-26 23:05:31,773 - wework_admin_logger - INFO - 查找元素：xpath //span[text()='选择所属部门']
+2022-11-26 23:05:31,830 - wework_admin_logger - INFO - 点击元素：xpath //div[@class='qui_dialog_body ww_dialog_body']//a[text()='测试部门1']
+2022-11-26 23:05:31,830 - wework_admin_logger - INFO - 查找元素：xpath //div[@class='qui_dialog_body ww_dialog_body']//a[text()='测试部门1']
+2022-11-26 23:05:31,895 - wework_admin_logger - INFO - 点击确定
+2022-11-26 23:05:31,895 - wework_admin_logger - INFO - 点击元素：xpath //a[text()='确定']
+2022-11-26 23:05:31,895 - wework_admin_logger - INFO - 查找元素：xpath //a[text()='确定']
+2022-11-26 23:05:31,961 - wework_admin_logger - INFO - 复用已有的driver
+2022-11-26 23:05:31,968 - wework_admin_logger - INFO - 获取tips提示语
+2022-11-26 23:05:32,978 - wework_admin_logger - INFO - 查找元素：id js_tips
+2022-11-26 23:05:33,002 - wework_admin_logger - DEBUG - 断言添加部门成功
+2022-11-26 23:05:33,005 - wework_admin_logger - INFO - 关闭浏览器进程

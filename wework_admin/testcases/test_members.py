@@ -1,6 +1,8 @@
 # @FileName  :test_members.py
 # @Time      :2022/11/25 22:07
 # @Author    :Zijin Gui
+import allure
+
 from pages.login_page import LoginPage
 from utils.log_utils import Logger
 from utils.mock_data import MyFaker
@@ -20,26 +22,33 @@ class TestMembers:
         self.username = faker.get_name()
         self.accid = faker.get_id()
         self.tel = faker.get_telephone()
+        self.dept_name = self.username
 
     def teardown_class(self):
         '''后置操作：关闭浏览器进程'''
         self.index.close_broswer()
 
+    @allure.feature("成员管理")
+    @allure.story("从首页添加成员")
+    @allure.severity(allure.severity_level.BLOCKER)
     def test_add_mem_from_index(self):
         '''测试从首页添加成员'''
         # 链式调用
         # 用例层只关心业务
 
-        res = self.index.goto_add_mem_page().edit_info(\
+        res = self.index.goto_add_mem_page().edit_info( \
             self.username, self.accid, self.tel).get_tips()
 
-        Logger().debug("断言添加成功")
+        Logger().debug("断言添加成员成功")
         assert res == '保存成功'
 
+    @allure.feature("成员管理")
+    @allure.story("从通讯录页添加成员")
+    @allure.severity(allure.severity_level.BLOCKER)
     def test_add_mem_from_contact(self):
         '''测试从通讯录页添加成员'''
-        res = self.index.goto_contact_page().goto_add_members().edit_info(\
-            self.username, self.accid,self.tel).get_tips()
+        res = self.index.goto_contact_page().goto_add_members().edit_info( \
+            self.username, self.accid, self.tel).get_tips()
 
-        Logger().debug("断言添加成功")
+        Logger().debug("断言添加成员成功")
         assert res == "保存成功"

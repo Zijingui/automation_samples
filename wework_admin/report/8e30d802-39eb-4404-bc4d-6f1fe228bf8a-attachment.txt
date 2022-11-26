@@ -1,0 +1,22 @@
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 创建driver
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 植入cookie
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 进入首页
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 复用已有的driver
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 点击添加成员
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 点击元素：css selector .index_service_cnt_item
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 查找元素：css selector .index_service_cnt_item
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 复用已有的driver
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 输入成员信息：姓名： 吴飞、 accid：450122198908179287 、电话号码：15375349093
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 向元素id username 输入内容：吴飞
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 查找元素：id username
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 向元素id memberAdd_acctid 输入内容：450122198908179287
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 查找元素：id memberAdd_acctid
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 向元素id memberAdd_phone 输入内容：15375349093
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 查找元素：id memberAdd_phone
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 点击保存
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 点击元素：css selector .js_btn_save
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 查找元素：css selector .js_btn_save
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 复用已有的driver
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 获取tips提示语
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 查找元素：id js_tips
+[35mDEBUG   [0m wework_admin_logger:log_utils.py:38 断言添加成员成功

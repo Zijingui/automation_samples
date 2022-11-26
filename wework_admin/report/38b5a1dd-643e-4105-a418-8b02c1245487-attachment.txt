@@ -1,0 +1,31 @@
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 创建driver
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 植入cookie
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 进入首页
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 复用已有的driver
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 点击通讯录
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 点击元素：id menu_contacts
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 查找元素：id menu_contacts
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 复用已有的driver
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 点击 + 
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 点击元素：css selector .member_colLeft_top_addBtn
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 查找元素：css selector .member_colLeft_top_addBtn
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 点击 添加部门
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 点击元素：xpath //a[text()='添加部门']
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 查找元素：xpath //a[text()='添加部门']
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 复用已有的driver
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 输入部门名称
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 向元素xpath //label[text()='部门名称']/../input 输入内容：刘浩
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 查找元素：xpath //label[text()='部门名称']/../input
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 选择所属部门
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 点击元素：xpath //span[text()='选择所属部门']
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 查找元素：xpath //span[text()='选择所属部门']
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 点击元素：xpath //div[@class='qui_dialog_body ww_dialog_body']//a[text()='测试部门1']
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 查找元素：xpath //div[@class='qui_dialog_body ww_dialog_body']//a[text()='测试部门1']
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 点击确定
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 点击元素：xpath //a[text()='确定']
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 查找元素：xpath //a[text()='确定']
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 复用已有的driver
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 获取tips提示语
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 查找元素：id js_tips
+[35mDEBUG   [0m wework_admin_logger:log_utils.py:38 断言添加部门成功
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 关闭浏览器进程

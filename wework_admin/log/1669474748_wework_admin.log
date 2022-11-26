@@ -1,0 +1,74 @@
+2022-11-26 22:59:08,956 - wework_admin_logger - INFO - 创建driver
+2022-11-26 22:59:11,623 - wework_admin_logger - INFO - 植入cookie
+2022-11-26 22:59:11,669 - wework_admin_logger - INFO - 进入首页
+2022-11-26 22:59:14,223 - wework_admin_logger - INFO - 复用已有的driver
+2022-11-26 22:59:14,289 - wework_admin_logger - INFO - 点击通讯录
+2022-11-26 22:59:14,289 - wework_admin_logger - INFO - 点击元素：id menu_contacts
+2022-11-26 22:59:14,289 - wework_admin_logger - INFO - 查找元素：id menu_contacts
+2022-11-26 22:59:14,341 - wework_admin_logger - INFO - 复用已有的driver
+2022-11-26 22:59:14,351 - wework_admin_logger - INFO - 点击 + 
+2022-11-26 22:59:14,351 - wework_admin_logger - INFO - 点击元素：css selector .member_colLeft_top_addBtn
+2022-11-26 22:59:14,352 - wework_admin_logger - INFO - 查找元素：css selector .member_colLeft_top_addBtn
+2022-11-26 22:59:15,268 - wework_admin_logger - INFO - 点击 添加部门
+2022-11-26 22:59:15,269 - wework_admin_logger - INFO - 点击元素：xpath //a[text()='添加部门']
+2022-11-26 22:59:15,269 - wework_admin_logger - INFO - 查找元素：xpath //a[text()='添加部门']
+2022-11-26 22:59:15,333 - wework_admin_logger - INFO - 复用已有的driver
+2022-11-26 22:59:15,369 - wework_admin_logger - INFO - 输入部门名称
+2022-11-26 22:59:15,369 - wework_admin_logger - INFO - 向元素xpath //label[text()='部门名称']/../input 输入内容：袁莉
+2022-11-26 22:59:15,369 - wework_admin_logger - INFO - 查找元素：xpath //label[text()='部门名称']/../input
+2022-11-26 22:59:15,464 - wework_admin_logger - INFO - 选择所属部门
+2022-11-26 22:59:15,464 - wework_admin_logger - INFO - 点击元素：xpath //span[text()='选择所属部门']
+2022-11-26 22:59:15,464 - wework_admin_logger - INFO - 查找元素：xpath //span[text()='选择所属部门']
+2022-11-26 22:59:15,521 - wework_admin_logger - INFO - 点击元素：xpath //div[@class='qui_dialog_body ww_dialog_body']//a[text()='测试部门1']
+2022-11-26 22:59:15,521 - wework_admin_logger - INFO - 查找元素：xpath //div[@class='qui_dialog_body ww_dialog_body']//a[text()='测试部门1']
+2022-11-26 22:59:15,578 - wework_admin_logger - INFO - 点击确定
+2022-11-26 22:59:15,579 - wework_admin_logger - INFO - 点击元素：xpath //a[text()='确定']
+2022-11-26 22:59:15,579 - wework_admin_logger - INFO - 查找元素：xpath //a[text()='确定']
+2022-11-26 22:59:15,636 - wework_admin_logger - INFO - 复用已有的driver
+2022-11-26 22:59:15,651 - wework_admin_logger - INFO - 获取tips提示语
+2022-11-26 22:59:16,658 - wework_admin_logger - INFO - 查找元素：id js_tips
+2022-11-26 22:59:16,682 - wework_admin_logger - DEBUG - 断言添加部门成功
+2022-11-26 22:59:16,685 - wework_admin_logger - INFO - 关闭浏览器进程
+2022-11-26 22:59:18,860 - wework_admin_logger - INFO - 创建driver
+2022-11-26 22:59:21,264 - wework_admin_logger - INFO - 植入cookie
+2022-11-26 22:59:21,313 - wework_admin_logger - INFO - 进入首页
+2022-11-26 22:59:23,738 - wework_admin_logger - INFO - 复用已有的driver
+2022-11-26 22:59:23,791 - wework_admin_logger - INFO - 点击添加成员
+2022-11-26 22:59:23,791 - wework_admin_logger - INFO - 点击元素：css selector .index_service_cnt_item
+2022-11-26 22:59:23,791 - wework_admin_logger - INFO - 查找元素：css selector .index_service_cnt_item
+2022-11-26 22:59:24,676 - wework_admin_logger - INFO - 复用已有的driver
+2022-11-26 22:59:24,694 - wework_admin_logger - INFO - 输入成员信息：姓名： 孙英、 accid：652700198602169274 、电话号码：14581354346
+2022-11-26 22:59:24,694 - wework_admin_logger - INFO - 向元素id username 输入内容：孙英
+2022-11-26 22:59:24,694 - wework_admin_logger - INFO - 查找元素：id username
+2022-11-26 22:59:25,005 - wework_admin_logger - INFO - 向元素id memberAdd_acctid 输入内容：652700198602169274
+2022-11-26 22:59:25,005 - wework_admin_logger - INFO - 查找元素：id memberAdd_acctid
+2022-11-26 22:59:25,124 - wework_admin_logger - INFO - 向元素id memberAdd_phone 输入内容：14581354346
+2022-11-26 22:59:25,125 - wework_admin_logger - INFO - 查找元素：id memberAdd_phone
+2022-11-26 22:59:25,216 - wework_admin_logger - INFO - 点击保存
+2022-11-26 22:59:25,217 - wework_admin_logger - INFO - 点击元素：css selector .js_btn_save
+2022-11-26 22:59:25,217 - wework_admin_logger - INFO - 查找元素：css selector .js_btn_save
+2022-11-26 22:59:25,290 - wework_admin_logger - INFO - 复用已有的driver
+2022-11-26 22:59:25,301 - wework_admin_logger - INFO - 获取tips提示语
+2022-11-26 22:59:26,318 - wework_admin_logger - INFO - 查找元素：id js_tips
+2022-11-26 22:59:26,334 - wework_admin_logger - DEBUG - 断言添加成员成功
+2022-11-26 22:59:26,381 - wework_admin_logger - INFO - 点击通讯录
+2022-11-26 22:59:26,381 - wework_admin_logger - INFO - 点击元素：id menu_contacts
+2022-11-26 22:59:26,381 - wework_admin_logger - INFO - 查找元素：id menu_contacts
+2022-11-26 22:59:26,443 - wework_admin_logger - INFO - 复用已有的driver
+2022-11-26 22:59:26,463 - wework_admin_logger - INFO - 点击添加成员
+2022-11-26 22:59:26,654 - wework_admin_logger - INFO - 复用已有的driver
+2022-11-26 22:59:26,665 - wework_admin_logger - INFO - 输入成员信息：姓名： 李兰英、 accid：610400195810246175 、电话号码：13945344119
+2022-11-26 22:59:26,665 - wework_admin_logger - INFO - 向元素id username 输入内容：李兰英
+2022-11-26 22:59:26,665 - wework_admin_logger - INFO - 查找元素：id username
+2022-11-26 22:59:26,736 - wework_admin_logger - INFO - 向元素id memberAdd_acctid 输入内容：610400195810246175
+2022-11-26 22:59:26,736 - wework_admin_logger - INFO - 查找元素：id memberAdd_acctid
+2022-11-26 22:59:26,861 - wework_admin_logger - INFO - 向元素id memberAdd_phone 输入内容：13945344119
+2022-11-26 22:59:26,862 - wework_admin_logger - INFO - 查找元素：id memberAdd_phone
+2022-11-26 22:59:26,941 - wework_admin_logger - INFO - 点击保存
+2022-11-26 22:59:26,942 - wework_admin_logger - INFO - 点击元素：css selector .js_btn_save
+2022-11-26 22:59:26,942 - wework_admin_logger - INFO - 查找元素：css selector .js_btn_save
+2022-11-26 22:59:26,995 - wework_admin_logger - INFO - 复用已有的driver
+2022-11-26 22:59:27,002 - wework_admin_logger - INFO - 获取tips提示语
+2022-11-26 22:59:28,004 - wework_admin_logger - INFO - 查找元素：id js_tips
+2022-11-26 22:59:28,004 - wework_admin_logger - DEBUG - 断言添加成员成功
+2022-11-26 22:59:28,019 - wework_admin_logger - INFO - 关闭浏览器进程

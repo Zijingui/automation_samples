@@ -1,0 +1,20 @@
+2022-11-26 18:16:10,186 - wework_admin_logger - INFO - 初始化driver
+2022-11-26 18:16:12,825 - wework_admin_logger - INFO - 植入cookie
+2022-11-26 18:16:12,872 - wework_admin_logger - INFO - 进入首页
+2022-11-26 18:16:15,702 - wework_admin_logger - INFO - 复用driver
+2022-11-26 18:16:15,767 - wework_admin_logger - INFO - 点击添加成员
+2022-11-26 18:16:15,813 - wework_admin_logger - INFO - 复用driver
+2022-11-26 18:16:15,819 - wework_admin_logger - INFO - 输入成员信息：姓名： 向宁、 accid：440101195111176049 、电话号码：13968845110
+2022-11-26 18:16:17,375 - wework_admin_logger - INFO - 点击保存
+2022-11-26 18:16:17,442 - wework_admin_logger - INFO - 复用driver
+2022-11-26 18:16:17,448 - wework_admin_logger - INFO - 获取tips提示语
+2022-11-26 18:16:18,481 - wework_admin_logger - DEBUG - 断言添加成员成功
+2022-11-26 18:16:18,529 - wework_admin_logger - INFO - 点击通讯录
+2022-11-26 18:16:18,578 - wework_admin_logger - INFO - 复用driver
+2022-11-26 18:16:18,590 - wework_admin_logger - INFO - 点击添加成员
+2022-11-26 18:16:18,745 - wework_admin_logger - INFO - 复用driver
+2022-11-26 18:16:18,751 - wework_admin_logger - INFO - 输入成员信息：姓名： 许春梅、 accid：34110319571023751X 、电话号码：15110133159
+2022-11-26 18:16:19,021 - wework_admin_logger - INFO - 点击保存
+2022-11-26 18:16:19,072 - wework_admin_logger - INFO - 复用driver
+2022-11-26 18:16:19,077 - wework_admin_logger - INFO - 获取tips提示语
+2022-11-26 18:16:20,101 - wework_admin_logger - DEBUG - 断言添加成员成功

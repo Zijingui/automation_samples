@@ -1,0 +1,35 @@
+2022-11-26 17:16:46,283 - wework_admin_logger - INFO - 初始化driver
+2022-11-26 17:16:50,510 - wework_admin_logger - INFO - 植入cookie
+2022-11-26 17:16:50,564 - wework_admin_logger - INFO - 进入首页
+2022-11-26 17:16:54,035 - wework_admin_logger - INFO - 复用driver
+2022-11-26 17:16:54,103 - wework_admin_logger - INFO - 点击通讯录
+2022-11-26 17:16:54,177 - wework_admin_logger - INFO - 复用driver
+2022-11-26 17:16:54,185 - wework_admin_logger - INFO - 点击 + 
+2022-11-26 17:16:55,428 - wework_admin_logger - INFO - 点击 添加部门
+2022-11-26 17:16:55,516 - wework_admin_logger - INFO - 复用driver
+2022-11-26 17:16:55,573 - wework_admin_logger - INFO - 输入部门名称
+2022-11-26 17:16:55,656 - wework_admin_logger - INFO - 选择所属部门
+2022-11-26 17:16:55,787 - wework_admin_logger - INFO - 点击确定
+2022-11-26 17:16:55,846 - wework_admin_logger - INFO - 复用driver
+2022-11-26 17:16:55,870 - wework_admin_logger - INFO - 获取tips提示语
+2022-11-26 17:16:56,907 - wework_admin_logger - DEBUG - 断言添加部门成功
+2022-11-26 17:16:59,059 - wework_admin_logger - INFO - 初始化driver
+2022-11-26 17:17:02,462 - wework_admin_logger - INFO - 植入cookie
+2022-11-26 17:17:02,514 - wework_admin_logger - INFO - 进入首页
+2022-11-26 17:17:04,638 - wework_admin_logger - INFO - 复用driver
+2022-11-26 17:17:04,697 - wework_admin_logger - INFO - 点击添加成员
+2022-11-26 17:17:05,346 - wework_admin_logger - INFO - 复用driver
+2022-11-26 17:17:05,352 - wework_admin_logger - INFO - 输入成员信息：姓名： 周兵、 accid：623023197111176661 、电话号码：15705411183
+2022-11-26 17:17:06,058 - wework_admin_logger - INFO - 点击保存
+2022-11-26 17:17:06,127 - wework_admin_logger - INFO - 复用driver
+2022-11-26 17:17:06,137 - wework_admin_logger - INFO - 获取tips提示语
+2022-11-26 17:17:07,166 - wework_admin_logger - DEBUG - 断言添加成功
+2022-11-26 17:17:07,213 - wework_admin_logger - INFO - 点击通讯录
+2022-11-26 17:17:07,301 - wework_admin_logger - INFO - 复用driver
+2022-11-26 17:17:07,347 - wework_admin_logger - INFO - 点击添加成员
+2022-11-26 17:17:07,465 - wework_admin_logger - INFO - 复用driver
+2022-11-26 17:17:07,474 - wework_admin_logger - INFO - 输入成员信息：姓名： 江琳、 accid：520600193710112794 、电话号码：18832000750
+2022-11-26 17:17:07,755 - wework_admin_logger - INFO - 点击保存
+2022-11-26 17:17:07,809 - wework_admin_logger - INFO - 复用driver
+2022-11-26 17:17:07,818 - wework_admin_logger - INFO - 获取tips提示语
+2022-11-26 17:17:08,832 - wework_admin_logger - DEBUG - 断言添加成功

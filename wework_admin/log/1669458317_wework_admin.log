@@ -1,0 +1,20 @@
+2022-11-26 18:25:17,580 - wework_admin_logger - INFO - 初始化driver
+2022-11-26 18:25:19,924 - wework_admin_logger - INFO - 植入cookie
+2022-11-26 18:25:19,975 - wework_admin_logger - INFO - 进入首页
+2022-11-26 18:25:22,319 - wework_admin_logger - INFO - 复用driver
+2022-11-26 18:25:22,389 - wework_admin_logger - INFO - 点击添加成员
+2022-11-26 18:25:22,436 - wework_admin_logger - INFO - 复用driver
+2022-11-26 18:25:22,442 - wework_admin_logger - INFO - 输入成员信息：姓名： 田宇、 accid：441300197808278082 、电话号码：13613644852
+2022-11-26 18:25:23,663 - wework_admin_logger - INFO - 点击保存
+2022-11-26 18:25:23,737 - wework_admin_logger - INFO - 复用driver
+2022-11-26 18:25:23,741 - wework_admin_logger - INFO - 获取tips提示语
+2022-11-26 18:25:24,773 - wework_admin_logger - DEBUG - 断言添加成员成功
+2022-11-26 18:25:24,822 - wework_admin_logger - INFO - 点击通讯录
+2022-11-26 18:25:24,872 - wework_admin_logger - INFO - 复用driver
+2022-11-26 18:25:24,924 - wework_admin_logger - INFO - 点击添加成员
+2022-11-26 18:25:25,051 - wework_admin_logger - INFO - 复用driver
+2022-11-26 18:25:25,055 - wework_admin_logger - INFO - 输入成员信息：姓名： 赵桂英、 accid：530628196212282119 、电话号码：18639409204
+2022-11-26 18:25:25,330 - wework_admin_logger - INFO - 点击保存
+2022-11-26 18:25:25,385 - wework_admin_logger - INFO - 复用driver
+2022-11-26 18:25:25,443 - wework_admin_logger - INFO - 获取tips提示语
+2022-11-26 18:25:26,469 - wework_admin_logger - DEBUG - 断言添加成员成功

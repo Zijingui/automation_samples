@@ -1,6 +1,7 @@
 # @FileName  :add_dept_page.py
 # @Time      :2022/11/25 22:05
 # @Author    :Zijin Gui
+import allure
 from selenium.webdriver.common.by import By
 
 from pages.base_page import BasePage
@@ -17,13 +18,15 @@ class AddDeptPage(BasePage):
 
     def edit_dept_info(self, dept_name):
         '''编辑部门信息 跳转到通讯录页'''
-        self.logger.info("输入部门名称")
-        self.do_send_keys(dept_name, self.__DEPT_NAME)
-        self.logger.info("选择所属部门")
-        self.do_click(self.__DEPT_LIST)
-        self.do_click(self.__DEPT_SELECTED)
-        self.logger.info("点击确定")
-        self.do_click(self.__DEPT_CONFIRM_BTN)
+        with allure.step("输入部门信息"):
+            self.logger.info("输入部门名称")
+            self.do_send_keys(dept_name, *self.__DEPT_NAME)
+            self.logger.info("选择所属部门")
+            self.do_click(*self.__DEPT_LIST)
+            self.do_click(*self.__DEPT_SELECTED)
+        with allure.step("点击确定"):
+            self.logger.info("点击确定")
+            self.do_click(*self.__DEPT_CONFIRM_BTN)
 
         # 解决循环引用的问题 在方法内局部导入
         from pages.contact_page import ContactPage

@@ -4,23 +4,23 @@
 from selenium import webdriver
 
 from utils.log_utils import Logger
+import allure
 
 
 class BasePage:
-    '''基类' 存放公共方法 和一些初始化工作'''
+    '''基类页面'''
 
     def __init__(self, driver=None):
         # 初始化logger
         self.logger = Logger()
 
-        # 如果传入的有driver了 就直接使用 第一次调用时需要初始化 一个driver
+         # 如果已经存在 直接 复用
         if driver:
-            self.logger.info("复用driver")
+            self.logger.info("复用已有的driver")
             self.driver = driver
         else:
-            self.logger.info("初始化driver")
+            self.logger.info("创建driver")
             self.driver = webdriver.Chrome()
-
         self.driver.implicitly_wait(3)
         self.driver.maximize_window()
 
@@ -30,9 +30,9 @@ class BasePage:
             self.driver.get("https://work.weixin.qq.com/wework_admin/frame#index")
 
     def do_find(self, by, value=None):
-        '''查找一组元素并返回'''
-
-        # 判断是传入的一个元组locator 还是by 和 value单独传入 如果是传入元组 就需要进行解包
+        '''查找单个元素并返回'''
+        self.logger.info(f"查找元素：{by} {value}")
+        # 判断是传入的一个元组locator 还是by 和 value单独传入 如果是传入元组 就解包
         if value:
             return self.driver.find_element(by, value)
         else:
@@ -40,6 +40,7 @@ class BasePage:
 
     def do_finds(self, by, value):
         '''查找多个元素并返回'''
+        self.logger.info(f"查找元素：{by} {value}")
         if value:
             return self.driver.find_elements(by, value)
         else:
@@ -47,6 +48,7 @@ class BasePage:
 
     def do_send_keys(self, text, by, value=None):
         '''封装send_keys方法'''
+        self.logger.info(f"向元素{by} {value} 输入内容：{text}")
         if value:
             ele = self.do_find(by, value)
             ele.clear()
@@ -58,6 +60,7 @@ class BasePage:
 
     def do_click(self, by, value=None):
         '''点击元素'''
+        self.logger.info(f"点击元素：{by} {value}")
         if value:
             self.do_find(by, value).click()
         else:
@@ -65,4 +68,5 @@ class BasePage:
 
     def close_broswer(self):
         '''关闭浏览器并退出进程'''
+        self.logger.info(f"关闭浏览器进程")
         self.driver.quit()
