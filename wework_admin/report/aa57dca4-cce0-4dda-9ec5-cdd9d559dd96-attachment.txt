@@ -1,0 +1,28 @@
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 回到首页
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 点击添加成员
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 点击元素：css selector .index_service_cnt_item
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 查找元素：css selector .index_service_cnt_item
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 输入成员信息：姓名： 那婷、 accid：431202200111180907 、电话号码：18184341319
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 查找元素：id username
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 向元素id username 输入内容：那婷
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 查找元素：id memberAdd_acctid
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 向元素id memberAdd_acctid 输入内容：431202200111180907
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 查找元素：id memberAdd_phone
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 向元素id memberAdd_phone 输入内容：18184341319
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 点击保存
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 点击元素：css selector .js_btn_save
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 查找元素：css selector .js_btn_save
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 勾选要删除的成员: 那婷
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 点击元素：xpath //span[text()='那婷']/../../td[1]
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 查找元素：xpath //span[text()='那婷']/../../td[1]
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 点击删除
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 点击元素：css selector .ww_btn.js_delete
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 查找元素：css selector .ww_btn.js_delete
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 点击确认
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 点击元素：xpath //a[text()='确认']
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 查找元素：xpath //a[text()='确认']
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 获取tips提示语
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 查找元素：id js_tips
+[35mDEBUG   [0m wework_admin_logger:log_utils.py:38 断言删除成员
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 回到首页
+[32mINFO    [0m wework_admin_logger:log_utils.py:41 关闭浏览器进程

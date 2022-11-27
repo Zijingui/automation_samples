@@ -8,7 +8,7 @@ def click_elemenmt(driver):
     '''
     点击添加成员 判断是否点击成功
     显示等待会在timeout时间内反复执行该方法
-    :param: driver  用于接收WebDirverWait 传入的 driver  【具体查看until的源码 就可以理解】
+    :param: driver  用于接收WebDirverWait 传入的 driver
     '''
     # 1. 点击添加成员按钮
     try:

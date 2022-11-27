@@ -2,9 +2,12 @@
 # @Time      :2022/11/25 22:24
 # @Author    :Zijin Gui
 from selenium import webdriver
+from selenium.webdriver import ActionChains
 
 from utils.log_utils import Logger
 import allure
+
+from utils.ui_exception_utils import ui_exception_record
 
 
 class BasePage:
@@ -14,9 +17,8 @@ class BasePage:
         # 初始化logger
         self.logger = Logger()
 
-         # 如果已经存在 直接 复用
+        # 如果已经存在 直接 复用
         if driver:
-            self.logger.info("复用已有的driver")
             self.driver = driver
         else:
             self.logger.info("创建driver")
@@ -29,6 +31,7 @@ class BasePage:
             # 进入首页
             self.driver.get("https://work.weixin.qq.com/wework_admin/frame#index")
 
+    @ui_exception_record
     def do_find(self, by, value=None):
         '''查找单个元素并返回'''
         self.logger.info(f"查找元素：{by} {value}")
@@ -38,6 +41,7 @@ class BasePage:
         else:
             return self.driver.find_element(*by)
 
+    @ui_exception_record
     def do_finds(self, by, value):
         '''查找多个元素并返回'''
         self.logger.info(f"查找元素：{by} {value}")
@@ -46,18 +50,20 @@ class BasePage:
         else:
             return self.driver.find_elements(*by)
 
+    @ui_exception_record
     def do_send_keys(self, text, by, value=None):
         '''封装send_keys方法'''
-        self.logger.info(f"向元素{by} {value} 输入内容：{text}")
         if value:
             ele = self.do_find(by, value)
             ele.clear()
+            self.logger.info(f"向元素{by} {value} 输入内容：{text}")
             ele.send_keys(text)
         else:
             ele = self.do_find(*by)
             ele.clear()
             ele.send_keys(text)
 
+    @ui_exception_record
     def do_click(self, by, value=None):
         '''点击元素'''
         self.logger.info(f"点击元素：{by} {value}")
@@ -66,7 +72,23 @@ class BasePage:
         else:
             self.do_find(*by).click()
 
+    @ui_exception_record
+    def do_execute_js(self, js):
+        '''执行JavaScript脚本'''
+        self.driver.execute_script(js)
+
     def close_broswer(self):
         '''关闭浏览器并退出进程'''
         self.logger.info(f"关闭浏览器进程")
         self.driver.quit()
+
+    def goto_index_page(self):
+        '''回到首页'''
+        self.logger.info("回到首页")
+        self.driver.get("https://work.weixin.qq.com/wework_admin/frame#index")
+
+        from pages.index_page import IndexPage
+        return IndexPage(self.driver)
+
+    def do_refresh(self):
+        self.driver.refresh()
