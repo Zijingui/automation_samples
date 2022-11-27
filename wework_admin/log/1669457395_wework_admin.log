@@ -1,7 +1,0 @@
-2022-11-26 18:09:55,755 - wework_admin_logger - INFO - 初始化driver
-2022-11-26 18:09:58,034 - wework_admin_logger - INFO - 植入cookie
-2022-11-26 18:09:58,081 - wework_admin_logger - INFO - 进入首页
-2022-11-26 18:09:59,973 - wework_admin_logger - INFO - 复用driver
-2022-11-26 18:10:00,045 - wework_admin_logger - INFO - 点击通讯录
-2022-11-26 18:10:00,089 - wework_admin_logger - INFO - 复用driver
-2022-11-26 18:10:00,099 - wework_admin_logger - INFO - 点击 + 
