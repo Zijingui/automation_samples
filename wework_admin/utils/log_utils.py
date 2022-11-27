@@ -1,6 +1,7 @@
 # @FileName  :log_utils.py
 # @Time      :2022/11/26 11:02
 # @Author    :Zijin Gui
+import datetime
 import logging
 import time
 
@@ -9,8 +10,12 @@ class Logger:
     def __init__(self):
         self.logger = logging.getLogger("wework_admin_logger")
         self.logger.setLevel(logging.DEBUG)
+
+        now = datetime.datetime.now()
+        formated_time = now.strftime("%Y-%m-%d %H-%M-%S")
+
         # 日志文件存放路径
-        log_path = f"../log/{int(time.time())}_wework_admin.log"
+        log_path = f"../log/{formated_time}_wework_admin.log"
 
         # 判断是否已经存在handler 如果有直接使用 解决日志重复打印的问题
         if not self.logger.handlers:

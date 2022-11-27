@@ -1,0 +1,36 @@
+2022-11-27 18:37:32,975 - wework_admin_logger - INFO - 创建driver
+2022-11-27 18:37:35,597 - wework_admin_logger - INFO - 植入cookie
+2022-11-27 18:37:35,652 - wework_admin_logger - INFO - 进入首页
+2022-11-27 18:37:38,020 - wework_admin_logger - INFO - 回到首页
+2022-11-27 18:37:38,152 - wework_admin_logger - INFO - 点击通讯录
+2022-11-27 18:37:38,152 - wework_admin_logger - INFO - 点击元素：id menu_contacts
+2022-11-27 18:37:38,152 - wework_admin_logger - INFO - 查找元素：id menu_contacts
+2022-11-27 18:37:38,208 - wework_admin_logger - INFO - 点击添加成员
+2022-11-27 18:37:39,240 - wework_admin_logger - INFO - 输入成员信息：姓名： 欧阳畅、 accid：341501199405120638 、电话号码：14514736090
+2022-11-27 18:37:39,241 - wework_admin_logger - INFO - 查找元素：id username
+2022-11-27 18:37:39,283 - wework_admin_logger - INFO - 向元素id username 输入内容：欧阳畅
+2022-11-27 18:37:39,308 - wework_admin_logger - INFO - 查找元素：id memberAdd_acctid
+2022-11-27 18:37:39,342 - wework_admin_logger - INFO - 向元素id memberAdd_acctid 输入内容：341501199405120638
+2022-11-27 18:37:39,407 - wework_admin_logger - INFO - 查找元素：id memberAdd_phone
+2022-11-27 18:37:39,444 - wework_admin_logger - INFO - 向元素id memberAdd_phone 输入内容：14514736090
+2022-11-27 18:37:39,488 - wework_admin_logger - INFO - 点击保存
+2022-11-27 18:37:39,488 - wework_admin_logger - INFO - 点击元素：css selector .js_btn_save
+2022-11-27 18:37:39,488 - wework_admin_logger - INFO - 查找元素：css selector .js_btn_save
+2022-11-27 18:37:39,564 - wework_admin_logger - INFO - 获取tips提示语
+2022-11-27 18:37:40,576 - wework_admin_logger - INFO - 查找元素：id js_tips
+2022-11-27 18:37:40,609 - wework_admin_logger - DEBUG - 断言添加成员
+2022-11-27 18:37:40,609 - wework_admin_logger - INFO - 回到首页
+2022-11-27 18:37:40,686 - wework_admin_logger - INFO - 点击通讯录
+2022-11-27 18:37:40,687 - wework_admin_logger - INFO - 点击元素：id menu_contacts
+2022-11-27 18:37:40,687 - wework_admin_logger - INFO - 查找元素：id menu_contacts
+2022-11-27 18:37:40,759 - wework_admin_logger - INFO - 勾选要删除的成员: 欧阳畅
+2022-11-27 18:37:40,760 - wework_admin_logger - INFO - 点击元素：xpath //span[text()='欧阳畅']/../../td[1]
+2022-11-27 18:37:40,760 - wework_admin_logger - INFO - 查找元素：xpath //span[text()='欧阳畅']/../../td[1]
+2022-11-27 18:37:40,862 - wework_admin_logger - INFO - 点击删除
+2022-11-27 18:37:40,863 - wework_admin_logger - INFO - 点击元素：css selector .ww_btn.js_delete
+2022-11-27 18:37:40,863 - wework_admin_logger - INFO - 查找元素：css selector .ww_btn.js_delete
+2022-11-27 18:37:40,939 - wework_admin_logger - INFO - 点击确认
+2022-11-27 18:37:40,939 - wework_admin_logger - INFO - 点击元素：xpath //a[text()='确认']
+2022-11-27 18:37:40,939 - wework_admin_logger - INFO - 查找元素：xpath //a[text()='确认']
+2022-11-27 18:37:40,996 - wework_admin_logger - INFO - 回到首页
+2022-11-27 18:37:41,086 - wework_admin_logger - INFO - 关闭浏览器进程
