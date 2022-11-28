@@ -1,6 +1,3 @@
-# @FileName  :test_members.py
-# @Time      :2022/11/25 22:07
-# @Author    :Zijin Gui
 import allure
 
 from pages.login_page import LoginPage
@@ -35,7 +32,8 @@ class TestMembers:
         self.index.close_broswer()
 
     @allure.feature("成员管理")
-    @allure.story("从首页添加成员")
+    @allure.story("添加成员")
+    @allure.title("从首页添加成员")
     @allure.severity(allure.severity_level.BLOCKER)
     def test_add_mem_from_index(self):
         '''测试从首页添加成员'''
@@ -51,7 +49,8 @@ class TestMembers:
         self.index.goto_index_page().goto_contact_page().delete_member(self.username)
 
     @allure.feature("成员管理")
-    @allure.story("从通讯录页添加成员")
+    @allure.story("添加成员")
+    @allure.title("从通讯录页添加成员")
     @allure.severity(allure.severity_level.BLOCKER)
     def test_add_mem_from_contact(self):
         '''测试从通讯录页添加成员'''
@@ -66,6 +65,7 @@ class TestMembers:
 
     @allure.feature("成员管理")
     @allure.story("删除成员")
+    @allure.title("单选删除成员")
     @allure.severity(allure.severity_level.BLOCKER)
     def test_delete_member(self):
         '''测试删除成员'''

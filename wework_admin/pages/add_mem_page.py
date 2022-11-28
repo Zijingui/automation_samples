@@ -1,18 +1,15 @@
-# @FileName  :add_mem_page.py
-# @Time      :2022/11/25 21:59
-# @Author    :Zijin Gui
 import allure
 from selenium.webdriver.common.by import By
-
 from pages.base_page import BasePage
 
 
 class AddMemPage(BasePage):
     '''编辑成员信息页'''
-    __USERNAME = (By.ID, "username")
-    __USER_ACCID = (By.ID, "memberAdd_acctid")
-    __USER_TEL = (By.ID, "memberAdd_phone")
-    __SAVE_BTN = (By.CSS_SELECTOR, ".js_btn_save")
+    __USERNAME = (By.ID, "username") # 成员姓名
+    __USER_ACCID = (By.ID, "memberAdd_acctid")  # 成员账账户
+    __USER_EMAIL = (By.ID, "memberAdd_biz_mail")  # 邮箱
+    __USER_TEL = (By.ID, "memberAdd_phone")  # 电话号码
+    __SAVE_BTN = (By.CSS_SELECTOR, ".js_btn_save")  # 保存编辑按钮
 
     def edit_info(self, name, accid, tel):
         '''编辑成员信息 并确定添加'''

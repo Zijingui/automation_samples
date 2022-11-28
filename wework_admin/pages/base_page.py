@@ -1,12 +1,5 @@
-# @FileName  :base_page.py
-# @Time      :2022/11/25 22:24
-# @Author    :Zijin Gui
 from selenium import webdriver
-from selenium.webdriver import ActionChains
-
 from utils.log_utils import Logger
-import allure
-
 from utils.ui_exception_utils import ui_exception_record
 
 
@@ -55,6 +48,7 @@ class BasePage:
         '''封装send_keys方法'''
         if value:
             ele = self.do_find(by, value)
+            # 先清空输入框，防坠输入框存在默认值的情况
             ele.clear()
             self.logger.info(f"向元素{by} {value} 输入内容：{text}")
             ele.send_keys(text)
@@ -90,5 +84,3 @@ class BasePage:
         from pages.index_page import IndexPage
         return IndexPage(self.driver)
 
-    def do_refresh(self):
-        self.driver.refresh()

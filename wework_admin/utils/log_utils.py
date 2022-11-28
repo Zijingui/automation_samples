@@ -1,9 +1,6 @@
-# @FileName  :log_utils.py
-# @Time      :2022/11/26 11:02
-# @Author    :Zijin Gui
+
 import datetime
 import logging
-import time
 
 
 class Logger:
@@ -12,10 +9,9 @@ class Logger:
         self.logger.setLevel(logging.DEBUG)
 
         now = datetime.datetime.now()
-        formated_time = now.strftime("%Y-%m-%d %H-%M-%S")
-
+        time_stamp = now.strftime("%Y-%m-%d_%H-%M-%S")
         # 日志文件存放路径
-        log_path = f"../log/{formated_time}_wework_admin.log"
+        log_path = f"../log/{time_stamp}_wework_admin.log"
 
         # 判断是否已经存在handler 如果有直接使用 解决日志重复打印的问题
         if not self.logger.handlers:
@@ -28,7 +24,8 @@ class Logger:
             stream_handler.setLevel(logging.DEBUG)
 
             # 创建格式器
-            formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+            formatter = logging.Formatter(
+                '%(asctime)s - %(name)s - %(levelname)s - %(message)s')
             # 将格式器添加到handler
             file_handler.setFormatter(formatter)
             stream_handler.setFormatter(formatter)

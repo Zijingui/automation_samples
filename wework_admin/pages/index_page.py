@@ -1,7 +1,3 @@
-# @FileName  :index_page.py
-# @Time      :2022/11/25 21:56
-# @Author    :Zijin Gui
-# @Author    :Zijin Gui
 import allure
 from selenium.webdriver.common.by import By
 from pages.add_mem_page import AddMemPage

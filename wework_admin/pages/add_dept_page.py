@@ -1,9 +1,5 @@
-# @FileName  :add_dept_page.py
-# @Time      :2022/11/25 22:05
-# @Author    :Zijin Gui
 import allure
 from selenium.webdriver.common.by import By
-
 from pages.base_page import BasePage
 
 
@@ -14,7 +10,6 @@ class AddDeptPage(BasePage):
     __DEPT_NAME = (By.XPATH, "//label[text()='部门名称']/../input")  # 部门名称输入框
     __DEPT_LIST = (By.XPATH, "//span[text()='选择所属部门']")  # 选择所属部门下拉框
     # 企业根目录
-    #__DEPT_SELECTED = (By.XPATH, "//div[@class='qui_dialog_body ww_dialog_body']//a[text()='测试部门1']")
     __DEPT_SELECTED = (By.XPATH, "//a[text()='测试企业-1']")
     __DEPT_CONFIRM_BTN = (By.XPATH, "//a[text()='确定']")
 

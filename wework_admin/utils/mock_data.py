@@ -1,12 +1,10 @@
-# @FileName  :mock_data.py
-# @Time      :2022/11/26 11:50
-# @Author    :Zijin Gui
 
 from faker import Faker
 
 
 class MyFaker:
     '''mock常用数据'''
+
     def __init__(self):
         self.faker = Faker(locale="zh_CN")
 

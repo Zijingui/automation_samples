@@ -1,10 +1,5 @@
-# @FileName  :login_page.py
-# @Time      :2022/11/25 21:56
-# @Author    :Zijin Gui
 import allure
 import yaml
-from selenium import webdriver
-
 from pages.base_page import BasePage
 from pages.index_page import IndexPage
 
