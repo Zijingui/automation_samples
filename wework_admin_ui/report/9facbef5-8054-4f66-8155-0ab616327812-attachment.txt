@@ -1,0 +1,32 @@
+[32mINFO    [0m wework_admin_logger:log_utils.py:43 回到首页
+[32mINFO    [0m wework_admin_logger:log_utils.py:43 点击通讯录
+[32mINFO    [0m wework_admin_logger:log_utils.py:43 点击元素：id menu_contacts
+[32mINFO    [0m wework_admin_logger:log_utils.py:43 查找元素：id menu_contacts
+[32mINFO    [0m wework_admin_logger:log_utils.py:43 点击添加成员
+[32mINFO    [0m wework_admin_logger:log_utils.py:43 输入成员信息：姓名： 包帆、 accid：330211199308250768 、电话号码：13510919618
+[32mINFO    [0m wework_admin_logger:log_utils.py:43 查找元素：id username
+[32mINFO    [0m wework_admin_logger:log_utils.py:43 向元素id username 输入内容：包帆
+[32mINFO    [0m wework_admin_logger:log_utils.py:43 查找元素：id memberAdd_acctid
+[32mINFO    [0m wework_admin_logger:log_utils.py:43 向元素id memberAdd_acctid 输入内容：330211199308250768
+[32mINFO    [0m wework_admin_logger:log_utils.py:43 查找元素：id memberAdd_phone
+[32mINFO    [0m wework_admin_logger:log_utils.py:43 向元素id memberAdd_phone 输入内容：13510919618
+[32mINFO    [0m wework_admin_logger:log_utils.py:43 点击保存
+[32mINFO    [0m wework_admin_logger:log_utils.py:43 点击元素：css selector .js_btn_save
+[32mINFO    [0m wework_admin_logger:log_utils.py:43 查找元素：css selector .js_btn_save
+[32mINFO    [0m wework_admin_logger:log_utils.py:43 获取tips提示语
+[32mINFO    [0m wework_admin_logger:log_utils.py:43 查找元素：id js_tips
+[35mDEBUG   [0m wework_admin_logger:log_utils.py:40 断言添加成员
+[32mINFO    [0m wework_admin_logger:log_utils.py:43 回到首页
+[32mINFO    [0m wework_admin_logger:log_utils.py:43 点击通讯录
+[32mINFO    [0m wework_admin_logger:log_utils.py:43 点击元素：id menu_contacts
+[32mINFO    [0m wework_admin_logger:log_utils.py:43 查找元素：id menu_contacts
+[32mINFO    [0m wework_admin_logger:log_utils.py:43 勾选要删除的成员: 包帆
+[32mINFO    [0m wework_admin_logger:log_utils.py:43 点击元素：xpath //span[text()='包帆']/../../td[1]
+[32mINFO    [0m wework_admin_logger:log_utils.py:43 查找元素：xpath //span[text()='包帆']/../../td[1]
+[32mINFO    [0m wework_admin_logger:log_utils.py:43 点击删除
+[32mINFO    [0m wework_admin_logger:log_utils.py:43 点击元素：css selector .ww_btn.js_delete
+[32mINFO    [0m wework_admin_logger:log_utils.py:43 查找元素：css selector .ww_btn.js_delete
+[32mINFO    [0m wework_admin_logger:log_utils.py:43 点击确认
+[32mINFO    [0m wework_admin_logger:log_utils.py:43 点击元素：xpath //a[text()='确认']
+[32mINFO    [0m wework_admin_logger:log_utils.py:43 查找元素：xpath //a[text()='确认']
+[32mINFO    [0m wework_admin_logger:log_utils.py:43 回到首页

@@ -1,0 +1,112 @@
+2022-11-28 21:25:54,796 - wework_admin_logger - INFO - 创建driver
+2022-11-28 21:25:57,343 - wework_admin_logger - INFO - 植入cookie
+2022-11-28 21:25:57,392 - wework_admin_logger - INFO - 进入首页
+2022-11-28 21:25:59,890 - wework_admin_logger - INFO - 点击通讯录
+2022-11-28 21:25:59,890 - wework_admin_logger - INFO - 点击元素：id menu_contacts
+2022-11-28 21:25:59,890 - wework_admin_logger - INFO - 查找元素：id menu_contacts
+2022-11-28 21:25:59,954 - wework_admin_logger - INFO - 点击添加标签
+2022-11-28 21:25:59,955 - wework_admin_logger - INFO - 点击元素：xpath //ul[@class='ww_btnGroup']//a[text()='标签']
+2022-11-28 21:25:59,955 - wework_admin_logger - INFO - 查找元素：xpath //ul[@class='ww_btnGroup']//a[text()='标签']
+2022-11-28 21:26:04,357 - wework_admin_logger - INFO - 输入标签名： 沈玉珍
+2022-11-28 21:26:04,358 - wework_admin_logger - INFO - 查找元素：xpath //label[text()='标签名称 ']/../..//input
+2022-11-28 21:26:04,399 - wework_admin_logger - INFO - 向元素xpath //label[text()='标签名称 ']/../..//input 输入内容：沈玉珍
+2022-11-28 21:26:04,428 - wework_admin_logger - INFO - 点击确定
+2022-11-28 21:26:04,428 - wework_admin_logger - INFO - 点击元素：xpath //div[@class='qui_dialog_foot ww_dialog_foot']/a[text()='确定']
+2022-11-28 21:26:04,428 - wework_admin_logger - INFO - 查找元素：xpath //div[@class='qui_dialog_foot ww_dialog_foot']/a[text()='确定']
+2022-11-28 21:26:04,482 - wework_admin_logger - INFO - 获取tips提示语
+2022-11-28 21:26:05,495 - wework_admin_logger - INFO - 查找元素：id js_tips
+2022-11-28 21:26:05,510 - wework_admin_logger - DEBUG - 断言创建标签: 沈玉珍
+2022-11-28 21:26:05,510 - wework_admin_logger - INFO - 点击通讯录
+2022-11-28 21:26:05,510 - wework_admin_logger - INFO - 点击元素：id menu_contacts
+2022-11-28 21:26:05,510 - wework_admin_logger - INFO - 查找元素：id menu_contacts
+2022-11-28 21:26:05,579 - wework_admin_logger - INFO - 点击标签tab
+2022-11-28 21:26:05,579 - wework_admin_logger - INFO - 点击元素：xpath //ul[@class='ww_btnGroup']//a[text()='标签']
+2022-11-28 21:26:05,580 - wework_admin_logger - INFO - 查找元素：xpath //ul[@class='ww_btnGroup']//a[text()='标签']
+2022-11-28 21:26:05,635 - wework_admin_logger - INFO - 查找元素：xpath //ul[@class='member_tag_list']/li[text()='沈玉珍 ']
+2022-11-28 21:26:05,916 - wework_admin_logger - INFO - 点击元素：xpath //ul[@class='member_tag_list']/li[text()='沈玉珍 ']//a
+2022-11-28 21:26:05,916 - wework_admin_logger - INFO - 查找元素：xpath //ul[@class='member_tag_list']/li[text()='沈玉珍 ']//a
+2022-11-28 21:26:05,961 - wework_admin_logger - INFO - 点击删除
+2022-11-28 21:26:05,961 - wework_admin_logger - INFO - 点击元素：xpath //ul[@class='vakata-context jstree-contextmenu jstree-default-contextmenu']//a[text()='删除']
+2022-11-28 21:26:05,962 - wework_admin_logger - INFO - 查找元素：xpath //ul[@class='vakata-context jstree-contextmenu jstree-default-contextmenu']//a[text()='删除']
+2022-11-28 21:26:06,010 - wework_admin_logger - INFO - 点击确定
+2022-11-28 21:26:06,010 - wework_admin_logger - INFO - 点击元素：xpath //div[@class='qui_dialog_foot ww_dialog_foot']/a[text()='确定']
+2022-11-28 21:26:06,010 - wework_admin_logger - INFO - 查找元素：xpath //div[@class='qui_dialog_foot ww_dialog_foot']/a[text()='确定']
+2022-11-28 21:26:06,129 - wework_admin_logger - INFO - 点击通讯录
+2022-11-28 21:26:06,129 - wework_admin_logger - INFO - 点击元素：id menu_contacts
+2022-11-28 21:26:06,129 - wework_admin_logger - INFO - 查找元素：id menu_contacts
+2022-11-28 21:26:06,407 - wework_admin_logger - INFO - 点击添加标签
+2022-11-28 21:26:06,407 - wework_admin_logger - INFO - 点击元素：xpath //ul[@class='ww_btnGroup']//a[text()='标签']
+2022-11-28 21:26:06,407 - wework_admin_logger - INFO - 查找元素：xpath //ul[@class='ww_btnGroup']//a[text()='标签']
+2022-11-28 21:26:06,571 - wework_admin_logger - INFO - 输入标签名： 陈春梅
+2022-11-28 21:26:06,571 - wework_admin_logger - INFO - 查找元素：xpath //label[text()='标签名称 ']/../..//input
+2022-11-28 21:26:06,612 - wework_admin_logger - INFO - 向元素xpath //label[text()='标签名称 ']/../..//input 输入内容：陈春梅
+2022-11-28 21:26:06,642 - wework_admin_logger - INFO - 点击确定
+2022-11-28 21:26:06,642 - wework_admin_logger - INFO - 点击元素：xpath //div[@class='qui_dialog_foot ww_dialog_foot']/a[text()='确定']
+2022-11-28 21:26:06,642 - wework_admin_logger - INFO - 查找元素：xpath //div[@class='qui_dialog_foot ww_dialog_foot']/a[text()='确定']
+2022-11-28 21:26:06,699 - wework_admin_logger - INFO - 点击通讯录
+2022-11-28 21:26:06,700 - wework_admin_logger - INFO - 点击元素：id menu_contacts
+2022-11-28 21:26:06,700 - wework_admin_logger - INFO - 查找元素：id menu_contacts
+2022-11-28 21:26:07,180 - wework_admin_logger - INFO - 点击标签tab
+2022-11-28 21:26:07,180 - wework_admin_logger - INFO - 点击元素：xpath //ul[@class='ww_btnGroup']//a[text()='标签']
+2022-11-28 21:26:07,180 - wework_admin_logger - INFO - 查找元素：xpath //ul[@class='ww_btnGroup']//a[text()='标签']
+2022-11-28 21:26:07,239 - wework_admin_logger - INFO - 查找元素：xpath //ul[@class='member_tag_list']/li[text()='陈春梅 ']
+2022-11-28 21:26:07,517 - wework_admin_logger - INFO - 点击元素：xpath //ul[@class='member_tag_list']/li[text()='陈春梅 ']//a
+2022-11-28 21:26:07,518 - wework_admin_logger - INFO - 查找元素：xpath //ul[@class='member_tag_list']/li[text()='陈春梅 ']//a
+2022-11-28 21:26:07,556 - wework_admin_logger - INFO - 点击删除
+2022-11-28 21:26:07,556 - wework_admin_logger - INFO - 点击元素：xpath //ul[@class='vakata-context jstree-contextmenu jstree-default-contextmenu']//a[text()='删除']
+2022-11-28 21:26:07,557 - wework_admin_logger - INFO - 查找元素：xpath //ul[@class='vakata-context jstree-contextmenu jstree-default-contextmenu']//a[text()='删除']
+2022-11-28 21:26:07,599 - wework_admin_logger - INFO - 点击确定
+2022-11-28 21:26:07,600 - wework_admin_logger - INFO - 点击元素：xpath //div[@class='qui_dialog_foot ww_dialog_foot']/a[text()='确定']
+2022-11-28 21:26:07,600 - wework_admin_logger - INFO - 查找元素：xpath //div[@class='qui_dialog_foot ww_dialog_foot']/a[text()='确定']
+2022-11-28 21:26:07,643 - wework_admin_logger - INFO - 获取tips提示语
+2022-11-28 21:26:08,647 - wework_admin_logger - INFO - 查找元素：id js_tips
+2022-11-28 21:26:08,647 - wework_admin_logger - DEBUG - 断言删除标签: 陈春梅
+2022-11-28 21:26:08,709 - wework_admin_logger - INFO - 点击通讯录
+2022-11-28 21:26:08,709 - wework_admin_logger - INFO - 点击元素：id menu_contacts
+2022-11-28 21:26:08,709 - wework_admin_logger - INFO - 查找元素：id menu_contacts
+2022-11-28 21:26:08,787 - wework_admin_logger - INFO - 点击添加标签
+2022-11-28 21:26:08,788 - wework_admin_logger - INFO - 点击元素：xpath //ul[@class='ww_btnGroup']//a[text()='标签']
+2022-11-28 21:26:08,788 - wework_admin_logger - INFO - 查找元素：xpath //ul[@class='ww_btnGroup']//a[text()='标签']
+2022-11-28 21:26:08,921 - wework_admin_logger - INFO - 输入标签名： 胡桂芝
+2022-11-28 21:26:08,921 - wework_admin_logger - INFO - 查找元素：xpath //label[text()='标签名称 ']/../..//input
+2022-11-28 21:26:08,960 - wework_admin_logger - INFO - 向元素xpath //label[text()='标签名称 ']/../..//input 输入内容：胡桂芝
+2022-11-28 21:26:08,993 - wework_admin_logger - INFO - 点击确定
+2022-11-28 21:26:08,993 - wework_admin_logger - INFO - 点击元素：xpath //div[@class='qui_dialog_foot ww_dialog_foot']/a[text()='确定']
+2022-11-28 21:26:08,993 - wework_admin_logger - INFO - 查找元素：xpath //div[@class='qui_dialog_foot ww_dialog_foot']/a[text()='确定']
+2022-11-28 21:26:09,049 - wework_admin_logger - INFO - 点击通讯录
+2022-11-28 21:26:09,049 - wework_admin_logger - INFO - 点击元素：id menu_contacts
+2022-11-28 21:26:09,049 - wework_admin_logger - INFO - 查找元素：id menu_contacts
+2022-11-28 21:26:09,519 - wework_admin_logger - INFO - 点击元素：xpath //ul[@class='ww_btnGroup']//a[text()='标签']
+2022-11-28 21:26:09,519 - wework_admin_logger - INFO - 查找元素：xpath //ul[@class='ww_btnGroup']//a[text()='标签']
+2022-11-28 21:26:09,576 - wework_admin_logger - INFO - 鼠标hover
+2022-11-28 21:26:09,576 - wework_admin_logger - INFO - 查找元素：xpath //ul[@class='member_tag_list']//li[text()='胡桂芝 ']
+2022-11-28 21:26:09,854 - wework_admin_logger - INFO - 点击更多按钮
+2022-11-28 21:26:09,854 - wework_admin_logger - INFO - 点击元素：xpath //ul[@class='member_tag_list']//li[text()='胡桂芝 ']/a
+2022-11-28 21:26:09,855 - wework_admin_logger - INFO - 查找元素：xpath //ul[@class='member_tag_list']//li[text()='胡桂芝 ']/a
+2022-11-28 21:26:09,894 - wework_admin_logger - INFO - 点击修改名称
+2022-11-28 21:26:09,894 - wework_admin_logger - INFO - 点击元素：xpath //ul[@class='vakata-context jstree-contextmenu jstree-default-contextmenu']//a[text()='修改名称']
+2022-11-28 21:26:09,895 - wework_admin_logger - INFO - 查找元素：xpath //ul[@class='vakata-context jstree-contextmenu jstree-default-contextmenu']//a[text()='修改名称']
+2022-11-28 21:26:09,944 - wework_admin_logger - INFO - 查找元素：xpath //div[@class='member_tag_dialog_inputDlg']//input
+2022-11-28 21:26:09,995 - wework_admin_logger - INFO - 向元素xpath //div[@class='member_tag_dialog_inputDlg']//input 输入内容：胡桂芝1669641968.7095234
+2022-11-28 21:26:10,064 - wework_admin_logger - INFO - 点击确定
+2022-11-28 21:26:10,064 - wework_admin_logger - INFO - 点击元素：xpath //div[@class='qui_dialog_foot ww_dialog_foot']/a[text()='确定']
+2022-11-28 21:26:10,064 - wework_admin_logger - INFO - 查找元素：xpath //div[@class='qui_dialog_foot ww_dialog_foot']/a[text()='确定']
+2022-11-28 21:26:10,112 - wework_admin_logger - INFO - 获取tips提示语
+2022-11-28 21:26:11,115 - wework_admin_logger - INFO - 查找元素：id js_tips
+2022-11-28 21:26:11,115 - wework_admin_logger - DEBUG - 断言修改标签名：胡桂芝
+2022-11-28 21:26:11,130 - wework_admin_logger - INFO - 点击通讯录
+2022-11-28 21:26:11,130 - wework_admin_logger - INFO - 点击元素：id menu_contacts
+2022-11-28 21:26:11,130 - wework_admin_logger - INFO - 查找元素：id menu_contacts
+2022-11-28 21:26:11,182 - wework_admin_logger - INFO - 点击标签tab
+2022-11-28 21:26:11,182 - wework_admin_logger - INFO - 点击元素：xpath //ul[@class='ww_btnGroup']//a[text()='标签']
+2022-11-28 21:26:11,183 - wework_admin_logger - INFO - 查找元素：xpath //ul[@class='ww_btnGroup']//a[text()='标签']
+2022-11-28 21:26:11,248 - wework_admin_logger - INFO - 查找元素：xpath //ul[@class='member_tag_list']/li[text()='胡桂芝1669641968.7095234 ']
+2022-11-28 21:26:11,536 - wework_admin_logger - INFO - 点击元素：xpath //ul[@class='member_tag_list']/li[text()='胡桂芝1669641968.7095234 ']//a
+2022-11-28 21:26:11,536 - wework_admin_logger - INFO - 查找元素：xpath //ul[@class='member_tag_list']/li[text()='胡桂芝1669641968.7095234 ']//a
+2022-11-28 21:26:11,579 - wework_admin_logger - INFO - 点击删除
+2022-11-28 21:26:11,579 - wework_admin_logger - INFO - 点击元素：xpath //ul[@class='vakata-context jstree-contextmenu jstree-default-contextmenu']//a[text()='删除']
+2022-11-28 21:26:11,579 - wework_admin_logger - INFO - 查找元素：xpath //ul[@class='vakata-context jstree-contextmenu jstree-default-contextmenu']//a[text()='删除']
+2022-11-28 21:26:11,631 - wework_admin_logger - INFO - 点击确定
+2022-11-28 21:26:11,632 - wework_admin_logger - INFO - 点击元素：xpath //div[@class='qui_dialog_foot ww_dialog_foot']/a[text()='确定']
+2022-11-28 21:26:11,632 - wework_admin_logger - INFO - 查找元素：xpath //div[@class='qui_dialog_foot ww_dialog_foot']/a[text()='确定']
+2022-11-28 21:26:11,692 - wework_admin_logger - INFO - 关闭浏览器进程
