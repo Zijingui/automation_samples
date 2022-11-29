@@ -1,0 +1,9 @@
+corpid:
+  mycorp: ww2d8e9cb89e2d6989
+secret:
+  contact: lbpIQs2pk6TfY01eOktZ2ZCOzeDtT_HbTRW1jy9ELwc
+  customer: xxx
+dev:
+  baseurl: xxx
+prod:
+  baseurl: https://qyapi.weixin.qq.com/

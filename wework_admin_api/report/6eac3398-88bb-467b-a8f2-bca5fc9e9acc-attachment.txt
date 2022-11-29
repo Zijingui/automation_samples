@@ -1,0 +1,5 @@
+[32mINFO    [0m my logger:base_api.py:27 =====开始发送请求===
+[32mINFO    [0m my logger:base_api.py:28 请求方法：post
+[32mINFO    [0m my logger:base_api.py:29 请求地址：department/create?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ
+[32mINFO    [0m my logger:base_api.py:30 请求参数：{'json': {'name': 'ddd'}}
+[32mINFO    [0m my logger:department.py:17 新增部门，响应信息为：{'errcode': 60004, 'errmsg': 'parent department not found, hint: [1669702034307411074608717], from ip: 27.38.207.130, more info at https://open.work.weixin.qq.com/devtool/query?e=60004'}

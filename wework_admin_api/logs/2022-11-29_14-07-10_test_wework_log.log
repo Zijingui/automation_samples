@@ -1,0 +1,390 @@
+2022-11-29 14:07:11,496 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:11,496 - my logger - INFO - 请求方法：post
+2022-11-29 14:07:11,496 - my logger - INFO - 请求地址：department/create?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ
+2022-11-29 14:07:11,496 - my logger - INFO - 请求参数：{'json': {'name': '测试新增111', 'name_en': 'test_en111', 'parentid': 1, 'order': 1, 'id': 3}}
+2022-11-29 14:07:11,511 - my logger - INFO - 新增部门，响应信息为：{'errcode': 0, 'errmsg': 'created', 'id': 3}
+2022-11-29 14:07:11,651 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:11,651 - my logger - INFO - 请求方法：get
+2022-11-29 14:07:11,651 - my logger - INFO - 请求地址：department/simplelist
+2022-11-29 14:07:11,651 - my logger - INFO - 请求参数：{'params': {'access_token': '0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ'}}
+2022-11-29 14:07:11,651 - my logger - INFO - 查询部门列表，响应信息为：{'errcode': 0, 'errmsg': 'ok', 'department_id': [{'id': 1, 'parentid': 0, 'order': 100000000}, {'id': 2, 'parentid': 1, 'order': 100000000}, {'id': 4, 'parentid': 1, 'order': 99998000}, {'id': 8, 'parentid': 2, 'order': 99997000}, {'id': 9, 'parentid': 2, 'order': 99996000}, {'id': 10, 'parentid': 2, 'order': 99995000}, {'id': 11, 'parentid': 2, 'order': 99994000}, {'id': 12, 'parentid': 2, 'order': 99993000}, {'id': 13, 'parentid': 2, 'order': 99992000}, {'id': 14, 'parentid': 2, 'order': 99991000}, {'id': 15, 'parentid': 2, 'order': 99990000}, {'id': 16, 'parentid': 2, 'order': 99989000}, {'id': 17, 'parentid': 2, 'order': 99988000}, {'id': 18, 'parentid': 2, 'order': 99987000}, {'id': 19, 'parentid': 2, 'order': 99986000}, {'id': 20, 'parentid': 2, 'order': 99985000}, {'id': 21, 'parentid': 2, 'order': 99984000}, {'id': 22, 'parentid': 2, 'order': 99983000}, {'id': 23, 'parentid': 2, 'order': 99982000}, {'id': 26, 'parentid': 2, 'order': 99980000}, {'id': 3, 'parentid': 1, 'order': 1}]}
+2022-11-29 14:07:11,949 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:11,964 - my logger - INFO - 请求方法：post
+2022-11-29 14:07:11,964 - my logger - INFO - 请求地址：department/update?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ
+2022-11-29 14:07:11,964 - my logger - INFO - 请求参数：{'json': {'name': '测试新增111===修改', 'id': 3}}
+2022-11-29 14:07:11,964 - my logger - INFO - 更新部门信息，响应信息为：{'errcode': 0, 'errmsg': 'updated'}
+2022-11-29 14:07:12,307 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:12,307 - my logger - INFO - 请求方法：get
+2022-11-29 14:07:12,307 - my logger - INFO - 请求地址：department/delete?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ&id=3
+2022-11-29 14:07:12,307 - my logger - INFO - 请求参数：{}
+2022-11-29 14:07:12,307 - my logger - INFO - 删除部门，响应信息为：{'errcode': 0, 'errmsg': 'deleted'}
+2022-11-29 14:07:12,449 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:12,449 - my logger - INFO - 请求方法：get
+2022-11-29 14:07:12,449 - my logger - INFO - 请求地址：department/simplelist
+2022-11-29 14:07:12,449 - my logger - INFO - 请求参数：{'params': {'access_token': '0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ'}}
+2022-11-29 14:07:12,449 - my logger - INFO - 查询部门列表，响应信息为：{'errcode': 0, 'errmsg': 'ok', 'department_id': [{'id': 1, 'parentid': 0, 'order': 100000000}, {'id': 2, 'parentid': 1, 'order': 100000000}, {'id': 4, 'parentid': 1, 'order': 99998000}, {'id': 8, 'parentid': 2, 'order': 99997000}, {'id': 9, 'parentid': 2, 'order': 99996000}, {'id': 10, 'parentid': 2, 'order': 99995000}, {'id': 11, 'parentid': 2, 'order': 99994000}, {'id': 12, 'parentid': 2, 'order': 99993000}, {'id': 13, 'parentid': 2, 'order': 99992000}, {'id': 14, 'parentid': 2, 'order': 99991000}, {'id': 15, 'parentid': 2, 'order': 99990000}, {'id': 16, 'parentid': 2, 'order': 99989000}, {'id': 17, 'parentid': 2, 'order': 99988000}, {'id': 18, 'parentid': 2, 'order': 99987000}, {'id': 19, 'parentid': 2, 'order': 99986000}, {'id': 20, 'parentid': 2, 'order': 99985000}, {'id': 21, 'parentid': 2, 'order': 99984000}, {'id': 22, 'parentid': 2, 'order': 99983000}, {'id': 23, 'parentid': 2, 'order': 99982000}, {'id': 26, 'parentid': 2, 'order': 99980000}]}
+2022-11-29 14:07:12,761 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:12,761 - my logger - INFO - 请求方法：post
+2022-11-29 14:07:12,761 - my logger - INFO - 请求地址：department/create?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ
+2022-11-29 14:07:12,761 - my logger - INFO - 请求参数：{'json': {'name': '测试新增 222', 'name_en': 'test_en222', 'parentid': 1, 'order': 1, 'id': 3}}
+2022-11-29 14:07:12,761 - my logger - INFO - 新增部门，响应信息为：{'errcode': 0, 'errmsg': 'created', 'id': 3}
+2022-11-29 14:07:12,918 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:12,918 - my logger - INFO - 请求方法：get
+2022-11-29 14:07:12,918 - my logger - INFO - 请求地址：department/simplelist
+2022-11-29 14:07:12,918 - my logger - INFO - 请求参数：{'params': {'access_token': '0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ'}}
+2022-11-29 14:07:12,918 - my logger - INFO - 查询部门列表，响应信息为：{'errcode': 0, 'errmsg': 'ok', 'department_id': [{'id': 1, 'parentid': 0, 'order': 100000000}, {'id': 2, 'parentid': 1, 'order': 100000000}, {'id': 4, 'parentid': 1, 'order': 99998000}, {'id': 8, 'parentid': 2, 'order': 99997000}, {'id': 9, 'parentid': 2, 'order': 99996000}, {'id': 10, 'parentid': 2, 'order': 99995000}, {'id': 11, 'parentid': 2, 'order': 99994000}, {'id': 12, 'parentid': 2, 'order': 99993000}, {'id': 13, 'parentid': 2, 'order': 99992000}, {'id': 14, 'parentid': 2, 'order': 99991000}, {'id': 15, 'parentid': 2, 'order': 99990000}, {'id': 16, 'parentid': 2, 'order': 99989000}, {'id': 17, 'parentid': 2, 'order': 99988000}, {'id': 18, 'parentid': 2, 'order': 99987000}, {'id': 19, 'parentid': 2, 'order': 99986000}, {'id': 20, 'parentid': 2, 'order': 99985000}, {'id': 21, 'parentid': 2, 'order': 99984000}, {'id': 22, 'parentid': 2, 'order': 99983000}, {'id': 23, 'parentid': 2, 'order': 99982000}, {'id': 26, 'parentid': 2, 'order': 99980000}, {'id': 3, 'parentid': 1, 'order': 1}]}
+2022-11-29 14:07:13,246 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:13,246 - my logger - INFO - 请求方法：post
+2022-11-29 14:07:13,246 - my logger - INFO - 请求地址：department/update?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ
+2022-11-29 14:07:13,246 - my logger - INFO - 请求参数：{'json': {'name': '测试新增 222===修改', 'id': 3}}
+2022-11-29 14:07:13,246 - my logger - INFO - 更新部门信息，响应信息为：{'errcode': 0, 'errmsg': 'updated'}
+2022-11-29 14:07:13,590 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:13,590 - my logger - INFO - 请求方法：get
+2022-11-29 14:07:13,590 - my logger - INFO - 请求地址：department/delete?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ&id=3
+2022-11-29 14:07:13,590 - my logger - INFO - 请求参数：{}
+2022-11-29 14:07:13,590 - my logger - INFO - 删除部门，响应信息为：{'errcode': 0, 'errmsg': 'deleted'}
+2022-11-29 14:07:13,731 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:13,731 - my logger - INFO - 请求方法：get
+2022-11-29 14:07:13,731 - my logger - INFO - 请求地址：department/simplelist
+2022-11-29 14:07:13,731 - my logger - INFO - 请求参数：{'params': {'access_token': '0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ'}}
+2022-11-29 14:07:13,731 - my logger - INFO - 查询部门列表，响应信息为：{'errcode': 0, 'errmsg': 'ok', 'department_id': [{'id': 1, 'parentid': 0, 'order': 100000000}, {'id': 2, 'parentid': 1, 'order': 100000000}, {'id': 21, 'parentid': 2, 'order': 99984000}, {'id': 4, 'parentid': 1, 'order': 99998000}, {'id': 26, 'parentid': 2, 'order': 99980000}, {'id': 22, 'parentid': 2, 'order': 99983000}, {'id': 23, 'parentid': 2, 'order': 99982000}, {'id': 8, 'parentid': 2, 'order': 99997000}, {'id': 9, 'parentid': 2, 'order': 99996000}, {'id': 10, 'parentid': 2, 'order': 99995000}, {'id': 11, 'parentid': 2, 'order': 99994000}, {'id': 12, 'parentid': 2, 'order': 99993000}, {'id': 13, 'parentid': 2, 'order': 99992000}, {'id': 14, 'parentid': 2, 'order': 99991000}, {'id': 15, 'parentid': 2, 'order': 99990000}, {'id': 16, 'parentid': 2, 'order': 99989000}, {'id': 17, 'parentid': 2, 'order': 99988000}, {'id': 18, 'parentid': 2, 'order': 99987000}, {'id': 19, 'parentid': 2, 'order': 99986000}, {'id': 20, 'parentid': 2, 'order': 99985000}]}
+2022-11-29 14:07:14,059 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:14,059 - my logger - INFO - 请求方法：post
+2022-11-29 14:07:14,059 - my logger - INFO - 请求地址：department/create?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ
+2022-11-29 14:07:14,059 - my logger - INFO - 请求参数：{'json': {'name': 'test', 'parentid': 1}}
+2022-11-29 14:07:14,059 - my logger - INFO - 新增部门，响应信息为：{'errcode': 0, 'errmsg': 'created', 'id': 27}
+2022-11-29 14:07:14,277 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:14,277 - my logger - INFO - 请求方法：post
+2022-11-29 14:07:14,277 - my logger - INFO - 请求地址：department/create?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ
+2022-11-29 14:07:14,277 - my logger - INFO - 请求参数：{'json': {'name': 'test', 'parentid': 1}}
+2022-11-29 14:07:14,277 - my logger - INFO - 新增部门，响应信息为：{'errcode': 60008, 'errmsg': 'department existed, hint: [1669702034339604194207959], from ip: 27.38.207.130, more info at https://open.work.weixin.qq.com/devtool/query?e=60008'}
+2022-11-29 14:07:14,621 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:14,621 - my logger - INFO - 请求方法：get
+2022-11-29 14:07:14,621 - my logger - INFO - 请求地址：department/delete?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ&id=27
+2022-11-29 14:07:14,621 - my logger - INFO - 请求参数：{}
+2022-11-29 14:07:14,621 - my logger - INFO - 删除部门，响应信息为：{'errcode': 0, 'errmsg': 'deleted'}
+2022-11-29 14:07:14,810 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:14,810 - my logger - INFO - 请求方法：post
+2022-11-29 14:07:14,810 - my logger - INFO - 请求地址：department/create?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ
+2022-11-29 14:07:14,810 - my logger - INFO - 请求参数：{'json': {'name': 'ddd'}}
+2022-11-29 14:07:14,810 - my logger - INFO - 新增部门，响应信息为：{'errcode': 60004, 'errmsg': 'parent department not found, hint: [1669702034307411074608717], from ip: 27.38.207.130, more info at https://open.work.weixin.qq.com/devtool/query?e=60004'}
+2022-11-29 14:07:15,153 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:15,153 - my logger - INFO - 请求方法：post
+2022-11-29 14:07:15,153 - my logger - INFO - 请求地址：department/create?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ
+2022-11-29 14:07:15,153 - my logger - INFO - 请求参数：{'json': {'name': '测试', 'name_en': 'test', 'parentid': 1}}
+2022-11-29 14:07:15,153 - my logger - INFO - 新增部门，响应信息为：{'errcode': 0, 'errmsg': 'created', 'id': 27}
+2022-11-29 14:07:15,434 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:15,434 - my logger - INFO - 请求方法：post
+2022-11-29 14:07:15,434 - my logger - INFO - 请求地址：department/create?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ
+2022-11-29 14:07:15,434 - my logger - INFO - 请求参数：{'json': {'name': '测试22', 'name_en': 'test', 'parentid': 1}}
+2022-11-29 14:07:15,434 - my logger - INFO - 新增部门，响应信息为：{'errcode': 60008, 'errmsg': 'department existed, hint: [1669702035235733335306095], from ip: 27.38.207.130, more info at https://open.work.weixin.qq.com/devtool/query?e=60008'}
+2022-11-29 14:07:15,763 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:15,763 - my logger - INFO - 请求方法：get
+2022-11-29 14:07:15,763 - my logger - INFO - 请求地址：department/delete?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ&id=27
+2022-11-29 14:07:15,763 - my logger - INFO - 请求参数：{}
+2022-11-29 14:07:15,763 - my logger - INFO - 删除部门，响应信息为：{'errcode': 0, 'errmsg': 'deleted'}
+2022-11-29 14:07:16,091 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:16,106 - my logger - INFO - 请求方法：post
+2022-11-29 14:07:16,106 - my logger - INFO - 请求地址：department/create?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ
+2022-11-29 14:07:16,106 - my logger - INFO - 请求参数：{'json': {'name': 'test', 'parentid': 1}}
+2022-11-29 14:07:16,106 - my logger - INFO - 新增部门，响应信息为：{'errcode': 0, 'errmsg': 'created', 'id': 27}
+2022-11-29 14:07:16,262 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:16,262 - my logger - INFO - 请求方法：get
+2022-11-29 14:07:16,262 - my logger - INFO - 请求地址：department/simplelist
+2022-11-29 14:07:16,262 - my logger - INFO - 请求参数：{'params': {'access_token': '0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ'}}
+2022-11-29 14:07:16,262 - my logger - INFO - 查询部门列表，响应信息为：{'errcode': 0, 'errmsg': 'ok', 'department_id': [{'id': 1, 'parentid': 0, 'order': 100000000}, {'id': 2, 'parentid': 1, 'order': 100000000}, {'id': 4, 'parentid': 1, 'order': 99998000}, {'id': 8, 'parentid': 2, 'order': 99997000}, {'id': 9, 'parentid': 2, 'order': 99996000}, {'id': 10, 'parentid': 2, 'order': 99995000}, {'id': 11, 'parentid': 2, 'order': 99994000}, {'id': 12, 'parentid': 2, 'order': 99993000}, {'id': 13, 'parentid': 2, 'order': 99992000}, {'id': 14, 'parentid': 2, 'order': 99991000}, {'id': 15, 'parentid': 2, 'order': 99990000}, {'id': 16, 'parentid': 2, 'order': 99989000}, {'id': 17, 'parentid': 2, 'order': 99988000}, {'id': 18, 'parentid': 2, 'order': 99987000}, {'id': 19, 'parentid': 2, 'order': 99986000}, {'id': 20, 'parentid': 2, 'order': 99985000}, {'id': 21, 'parentid': 2, 'order': 99984000}, {'id': 22, 'parentid': 2, 'order': 99983000}, {'id': 23, 'parentid': 2, 'order': 99982000}, {'id': 26, 'parentid': 2, 'order': 99980000}, {'id': 27, 'parentid': 1, 'order': 99997000}]}
+2022-11-29 14:07:16,591 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:16,591 - my logger - INFO - 请求方法：get
+2022-11-29 14:07:16,591 - my logger - INFO - 请求地址：department/delete?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ&id=27
+2022-11-29 14:07:16,591 - my logger - INFO - 请求参数：{}
+2022-11-29 14:07:16,591 - my logger - INFO - 删除部门，响应信息为：{'errcode': 0, 'errmsg': 'deleted'}
+2022-11-29 14:07:16,934 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:16,934 - my logger - INFO - 请求方法：post
+2022-11-29 14:07:16,934 - my logger - INFO - 请求地址：department/create?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ
+2022-11-29 14:07:16,934 - my logger - INFO - 请求参数：{'json': {'name': '新增部门测试', 'parentid': 1}}
+2022-11-29 14:07:16,934 - my logger - INFO - 新增部门，响应信息为：{'errcode': 0, 'errmsg': 'created', 'id': 27}
+2022-11-29 14:07:17,231 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:17,231 - my logger - INFO - 请求方法：post
+2022-11-29 14:07:17,231 - my logger - INFO - 请求地址：department/update?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ
+2022-11-29 14:07:17,231 - my logger - INFO - 请求参数：{'json': {'name': '测试修改名字', 'id': 27}}
+2022-11-29 14:07:17,231 - my logger - INFO - 更新部门信息，响应信息为：{'errcode': 0, 'errmsg': 'updated'}
+2022-11-29 14:07:17,576 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:17,576 - my logger - INFO - 请求方法：get
+2022-11-29 14:07:17,576 - my logger - INFO - 请求地址：department/delete?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ&id=27
+2022-11-29 14:07:17,576 - my logger - INFO - 请求参数：{}
+2022-11-29 14:07:17,576 - my logger - INFO - 删除部门，响应信息为：{'errcode': 0, 'errmsg': 'deleted'}
+2022-11-29 14:07:17,764 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:17,764 - my logger - INFO - 请求方法：post
+2022-11-29 14:07:17,764 - my logger - INFO - 请求地址：department/create?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ
+2022-11-29 14:07:17,764 - my logger - INFO - 请求参数：{'json': {'name': '新增部门测试', 'parentid': 1, 'id': 10}}
+2022-11-29 14:07:17,764 - my logger - INFO - 新增部门，响应信息为：{'errcode': 60008, 'errmsg': 'department existed, hint: [1669702037354963511004060], from ip: 27.38.207.130, more info at https://open.work.weixin.qq.com/devtool/query?e=60008'}
+2022-11-29 14:07:17,935 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:17,935 - my logger - INFO - 请求方法：get
+2022-11-29 14:07:17,935 - my logger - INFO - 请求地址：department/delete?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ&id=None
+2022-11-29 14:07:17,935 - my logger - INFO - 请求参数：{}
+2022-11-29 14:07:17,935 - my logger - INFO - 删除部门，响应信息为：{'errcode': 40058, 'errmsg': 'field `id` expect type `uint32`. invalid Request Parameter, hint: [1669702038431490085959528], from ip: 27.38.207.130, more info at https://open.work.weixin.qq.com/devtool/query?e=40058'}
+2022-11-29 14:07:18,076 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:18,076 - my logger - INFO - 请求方法：get
+2022-11-29 14:07:18,076 - my logger - INFO - 请求地址：department/simplelist
+2022-11-29 14:07:18,091 - my logger - INFO - 请求参数：{'params': {'access_token': '0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ'}}
+2022-11-29 14:07:18,091 - my logger - INFO - 查询部门列表，响应信息为：{'errcode': 0, 'errmsg': 'ok', 'department_id': [{'id': 1, 'parentid': 0, 'order': 100000000}, {'id': 2, 'parentid': 1, 'order': 100000000}, {'id': 21, 'parentid': 2, 'order': 99984000}, {'id': 4, 'parentid': 1, 'order': 99998000}, {'id': 26, 'parentid': 2, 'order': 99980000}, {'id': 22, 'parentid': 2, 'order': 99983000}, {'id': 23, 'parentid': 2, 'order': 99982000}, {'id': 8, 'parentid': 2, 'order': 99997000}, {'id': 9, 'parentid': 2, 'order': 99996000}, {'id': 10, 'parentid': 2, 'order': 99995000}, {'id': 11, 'parentid': 2, 'order': 99994000}, {'id': 12, 'parentid': 2, 'order': 99993000}, {'id': 13, 'parentid': 2, 'order': 99992000}, {'id': 14, 'parentid': 2, 'order': 99991000}, {'id': 15, 'parentid': 2, 'order': 99990000}, {'id': 16, 'parentid': 2, 'order': 99989000}, {'id': 17, 'parentid': 2, 'order': 99988000}, {'id': 18, 'parentid': 2, 'order': 99987000}, {'id': 19, 'parentid': 2, 'order': 99986000}, {'id': 20, 'parentid': 2, 'order': 99985000}]}
+2022-11-29 14:07:18,232 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:18,232 - my logger - INFO - 请求方法：get
+2022-11-29 14:07:18,232 - my logger - INFO - 请求地址：department/simplelist
+2022-11-29 14:07:18,232 - my logger - INFO - 请求参数：{'params': {'access_token': '0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ'}}
+2022-11-29 14:07:18,232 - my logger - INFO - 查询部门列表，响应信息为：{'errcode': 0, 'errmsg': 'ok', 'department_id': [{'id': 1, 'parentid': 0, 'order': 100000000}, {'id': 2, 'parentid': 1, 'order': 100000000}, {'id': 4, 'parentid': 1, 'order': 99998000}, {'id': 8, 'parentid': 2, 'order': 99997000}, {'id': 9, 'parentid': 2, 'order': 99996000}, {'id': 10, 'parentid': 2, 'order': 99995000}, {'id': 11, 'parentid': 2, 'order': 99994000}, {'id': 12, 'parentid': 2, 'order': 99993000}, {'id': 13, 'parentid': 2, 'order': 99992000}, {'id': 14, 'parentid': 2, 'order': 99991000}, {'id': 15, 'parentid': 2, 'order': 99990000}, {'id': 16, 'parentid': 2, 'order': 99989000}, {'id': 17, 'parentid': 2, 'order': 99988000}, {'id': 18, 'parentid': 2, 'order': 99987000}, {'id': 19, 'parentid': 2, 'order': 99986000}, {'id': 20, 'parentid': 2, 'order': 99985000}, {'id': 21, 'parentid': 2, 'order': 99984000}, {'id': 22, 'parentid': 2, 'order': 99983000}, {'id': 23, 'parentid': 2, 'order': 99982000}, {'id': 26, 'parentid': 2, 'order': 99980000}]}
+2022-11-29 14:07:18,497 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:18,497 - my logger - INFO - 请求方法：get
+2022-11-29 14:07:18,497 - my logger - INFO - 请求地址：department/delete?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ&id=1
+2022-11-29 14:07:18,497 - my logger - INFO - 请求参数：{}
+2022-11-29 14:07:18,497 - my logger - INFO - 删除部门，响应信息为：{'errcode': 60005, 'errmsg': 'department contains user, hint: [1669702038480132459132940], from ip: 27.38.207.130, more info at https://open.work.weixin.qq.com/devtool/query?e=60005'}
+2022-11-29 14:07:18,811 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:18,811 - my logger - INFO - 请求方法：post
+2022-11-29 14:07:18,826 - my logger - INFO - 请求地址：department/create?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ
+2022-11-29 14:07:18,826 - my logger - INFO - 请求参数：{'json': {'name': '新增父部门', 'parentid': 1}}
+2022-11-29 14:07:18,826 - my logger - INFO - 新增部门，响应信息为：{'errcode': 0, 'errmsg': 'created', 'id': 27}
+2022-11-29 14:07:19,139 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:19,139 - my logger - INFO - 请求方法：post
+2022-11-29 14:07:19,139 - my logger - INFO - 请求地址：department/create?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ
+2022-11-29 14:07:19,139 - my logger - INFO - 请求参数：{'json': {'name': '子部门', 'parentid': 27}}
+2022-11-29 14:07:19,139 - my logger - INFO - 新增部门，响应信息为：{'errcode': 0, 'errmsg': 'created', 'id': 28}
+2022-11-29 14:07:19,451 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:19,451 - my logger - INFO - 请求方法：get
+2022-11-29 14:07:19,451 - my logger - INFO - 请求地址：department/delete?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ&id=27
+2022-11-29 14:07:19,451 - my logger - INFO - 请求参数：{}
+2022-11-29 14:07:19,451 - my logger - INFO - 删除部门，响应信息为：{'errcode': 60006, 'errmsg': 'department contains sub-department, hint: [1669702039431492387286648], from ip: 27.38.207.130, more info at https://open.work.weixin.qq.com/devtool/query?e=60006'}
+2022-11-29 14:07:19,779 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:19,779 - my logger - INFO - 请求方法：get
+2022-11-29 14:07:19,779 - my logger - INFO - 请求地址：department/delete?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ&id=28
+2022-11-29 14:07:19,779 - my logger - INFO - 请求参数：{}
+2022-11-29 14:07:19,779 - my logger - INFO - 删除部门，响应信息为：{'errcode': 0, 'errmsg': 'deleted'}
+2022-11-29 14:07:20,123 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:20,123 - my logger - INFO - 请求方法：get
+2022-11-29 14:07:20,123 - my logger - INFO - 请求地址：department/delete?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ&id=27
+2022-11-29 14:07:20,123 - my logger - INFO - 请求参数：{}
+2022-11-29 14:07:20,123 - my logger - INFO - 删除部门，响应信息为：{'errcode': 0, 'errmsg': 'deleted'}
+2022-11-29 14:07:20,608 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:20,608 - my logger - INFO - 请求方法：post
+2022-11-29 14:07:20,608 - my logger - INFO - 请求地址：tag/create?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ
+2022-11-29 14:07:20,608 - my logger - INFO - 请求参数：{'json': {'tagname': '正常标签名称'}}
+2022-11-29 14:07:20,608 - my logger - INFO - 新建标签，响应信息为：{'errcode': 0, 'errmsg': 'created', 'tagid': 1}
+2022-11-29 14:07:20,795 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:20,795 - my logger - INFO - 请求方法：get
+2022-11-29 14:07:20,795 - my logger - INFO - 请求地址：tag/list?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ
+2022-11-29 14:07:20,795 - my logger - INFO - 请求参数：{}
+2022-11-29 14:07:20,795 - my logger - INFO - 获取标签列表，响应信息为：{'errcode': 0, 'errmsg': 'ok', 'taglist': [{'tagid': 1, 'tagname': '正常标签名称'}]}
+2022-11-29 14:07:20,998 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:20,998 - my logger - INFO - 请求方法：get
+2022-11-29 14:07:20,998 - my logger - INFO - 请求地址：tag/delete?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ&tagid=1
+2022-11-29 14:07:20,998 - my logger - INFO - 请求参数：{}
+2022-11-29 14:07:20,998 - my logger - INFO - 删除标签，响应信息为：{'errcode': 0, 'errmsg': 'deleted'}
+2022-11-29 14:07:21,342 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:21,342 - my logger - INFO - 请求方法：post
+2022-11-29 14:07:21,342 - my logger - INFO - 请求地址：tag/create?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ
+2022-11-29 14:07:21,342 - my logger - INFO - 请求参数：{'json': {'tagname': '标签名含有   空格'}}
+2022-11-29 14:07:21,342 - my logger - INFO - 新建标签，响应信息为：{'errcode': 0, 'errmsg': 'created', 'tagid': 1}
+2022-11-29 14:07:21,514 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:21,514 - my logger - INFO - 请求方法：get
+2022-11-29 14:07:21,514 - my logger - INFO - 请求地址：tag/list?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ
+2022-11-29 14:07:21,514 - my logger - INFO - 请求参数：{}
+2022-11-29 14:07:21,514 - my logger - INFO - 获取标签列表，响应信息为：{'errcode': 0, 'errmsg': 'ok', 'taglist': [{'tagid': 1, 'tagname': '标签名含有   空格'}]}
+2022-11-29 14:07:21,702 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:21,717 - my logger - INFO - 请求方法：get
+2022-11-29 14:07:21,717 - my logger - INFO - 请求地址：tag/delete?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ&tagid=1
+2022-11-29 14:07:21,717 - my logger - INFO - 请求参数：{}
+2022-11-29 14:07:21,717 - my logger - INFO - 删除标签，响应信息为：{'errcode': 0, 'errmsg': 'deleted'}
+2022-11-29 14:07:22,045 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:22,045 - my logger - INFO - 请求方法：post
+2022-11-29 14:07:22,045 - my logger - INFO - 请求地址：tag/create?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ
+2022-11-29 14:07:22,045 - my logger - INFO - 请求参数：{'json': {'tagname': '只有空格'}}
+2022-11-29 14:07:22,045 - my logger - INFO - 新建标签，响应信息为：{'errcode': 0, 'errmsg': 'created', 'tagid': 1}
+2022-11-29 14:07:22,218 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:22,218 - my logger - INFO - 请求方法：get
+2022-11-29 14:07:22,218 - my logger - INFO - 请求地址：tag/list?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ
+2022-11-29 14:07:22,218 - my logger - INFO - 请求参数：{}
+2022-11-29 14:07:22,218 - my logger - INFO - 获取标签列表，响应信息为：{'errcode': 0, 'errmsg': 'ok', 'taglist': [{'tagid': 1, 'tagname': '只有空格'}]}
+2022-11-29 14:07:22,405 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:22,405 - my logger - INFO - 请求方法：get
+2022-11-29 14:07:22,405 - my logger - INFO - 请求地址：tag/delete?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ&tagid=1
+2022-11-29 14:07:22,405 - my logger - INFO - 请求参数：{}
+2022-11-29 14:07:22,405 - my logger - INFO - 删除标签，响应信息为：{'errcode': 0, 'errmsg': 'deleted'}
+2022-11-29 14:07:22,718 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:22,718 - my logger - INFO - 请求方法：post
+2022-11-29 14:07:22,718 - my logger - INFO - 请求地址：tag/create?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ
+2022-11-29 14:07:22,718 - my logger - INFO - 请求参数：{'json': {'tagname': 'english name hhhh'}}
+2022-11-29 14:07:22,718 - my logger - INFO - 新建标签，响应信息为：{'errcode': 0, 'errmsg': 'created', 'tagid': 1}
+2022-11-29 14:07:22,874 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:22,874 - my logger - INFO - 请求方法：get
+2022-11-29 14:07:22,874 - my logger - INFO - 请求地址：tag/list?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ
+2022-11-29 14:07:22,874 - my logger - INFO - 请求参数：{}
+2022-11-29 14:07:22,874 - my logger - INFO - 获取标签列表，响应信息为：{'errcode': 0, 'errmsg': 'ok', 'taglist': [{'tagid': 1, 'tagname': 'english name hhhh'}]}
+2022-11-29 14:07:23,108 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:23,108 - my logger - INFO - 请求方法：get
+2022-11-29 14:07:23,108 - my logger - INFO - 请求地址：tag/delete?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ&tagid=1
+2022-11-29 14:07:23,108 - my logger - INFO - 请求参数：{}
+2022-11-29 14:07:23,108 - my logger - INFO - 删除标签，响应信息为：{'errcode': 0, 'errmsg': 'deleted'}
+2022-11-29 14:07:23,436 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:23,436 - my logger - INFO - 请求方法：post
+2022-11-29 14:07:23,436 - my logger - INFO - 请求地址：tag/create?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ
+2022-11-29 14:07:23,436 - my logger - INFO - 请求参数：{'json': {'tagname': '中英混合来一波 i  am chinese'}}
+2022-11-29 14:07:23,436 - my logger - INFO - 新建标签，响应信息为：{'errcode': 0, 'errmsg': 'created', 'tagid': 1}
+2022-11-29 14:07:23,593 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:23,593 - my logger - INFO - 请求方法：get
+2022-11-29 14:07:23,593 - my logger - INFO - 请求地址：tag/list?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ
+2022-11-29 14:07:23,593 - my logger - INFO - 请求参数：{}
+2022-11-29 14:07:23,593 - my logger - INFO - 获取标签列表，响应信息为：{'errcode': 0, 'errmsg': 'ok', 'taglist': [{'tagid': 1, 'tagname': '中英混合来一波 i  am chinese'}]}
+2022-11-29 14:07:23,812 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:23,812 - my logger - INFO - 请求方法：get
+2022-11-29 14:07:23,812 - my logger - INFO - 请求地址：tag/delete?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ&tagid=1
+2022-11-29 14:07:23,812 - my logger - INFO - 请求参数：{}
+2022-11-29 14:07:23,812 - my logger - INFO - 删除标签，响应信息为：{'errcode': 0, 'errmsg': 'deleted'}
+2022-11-29 14:07:24,125 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:24,125 - my logger - INFO - 请求方法：post
+2022-11-29 14:07:24,125 - my logger - INFO - 请求地址：tag/create?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ
+2022-11-29 14:07:24,125 - my logger - INFO - 请求参数：{'json': {'tagname': '含有特殊字符：*&*&%》《：“'}}
+2022-11-29 14:07:24,125 - my logger - INFO - 新建标签，响应信息为：{'errcode': 0, 'errmsg': 'created', 'tagid': 1}
+2022-11-29 14:07:24,296 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:24,296 - my logger - INFO - 请求方法：get
+2022-11-29 14:07:24,296 - my logger - INFO - 请求地址：tag/list?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ
+2022-11-29 14:07:24,296 - my logger - INFO - 请求参数：{}
+2022-11-29 14:07:24,296 - my logger - INFO - 获取标签列表，响应信息为：{'errcode': 0, 'errmsg': 'ok', 'taglist': [{'tagid': 1, 'tagname': '含有特殊字符：*&*&%》《：“'}]}
+2022-11-29 14:07:24,546 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:24,546 - my logger - INFO - 请求方法：get
+2022-11-29 14:07:24,546 - my logger - INFO - 请求地址：tag/delete?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ&tagid=1
+2022-11-29 14:07:24,546 - my logger - INFO - 请求参数：{}
+2022-11-29 14:07:24,546 - my logger - INFO - 删除标签，响应信息为：{'errcode': 0, 'errmsg': 'deleted'}
+2022-11-29 14:07:24,999 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:24,999 - my logger - INFO - 请求方法：post
+2022-11-29 14:07:24,999 - my logger - INFO - 请求地址：tag/create?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ
+2022-11-29 14:07:24,999 - my logger - INFO - 请求参数：{'json': {'tagname': '测试删除标签111'}}
+2022-11-29 14:07:24,999 - my logger - INFO - 新建标签，响应信息为：{'errcode': 0, 'errmsg': 'created', 'tagid': 1}
+2022-11-29 14:07:25,327 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:25,327 - my logger - INFO - 请求方法：get
+2022-11-29 14:07:25,327 - my logger - INFO - 请求地址：tag/list?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ
+2022-11-29 14:07:25,327 - my logger - INFO - 请求参数：{}
+2022-11-29 14:07:25,327 - my logger - INFO - 获取标签列表，响应信息为：{'errcode': 0, 'errmsg': 'ok', 'taglist': [{'tagid': 1, 'tagname': '测试删除标签111'}]}
+2022-11-29 14:07:25,624 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:25,640 - my logger - INFO - 请求方法：get
+2022-11-29 14:07:25,640 - my logger - INFO - 请求地址：tag/delete?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ&tagid=1
+2022-11-29 14:07:25,656 - my logger - INFO - 请求参数：{}
+2022-11-29 14:07:25,656 - my logger - INFO - 删除标签，响应信息为：{'errcode': 0, 'errmsg': 'deleted'}
+2022-11-29 14:07:25,921 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:25,921 - my logger - INFO - 请求方法：get
+2022-11-29 14:07:25,921 - my logger - INFO - 请求地址：tag/list?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ
+2022-11-29 14:07:25,921 - my logger - INFO - 请求参数：{}
+2022-11-29 14:07:25,921 - my logger - INFO - 获取标签列表，响应信息为：{'errcode': 0, 'errmsg': 'ok', 'taglist': []}
+2022-11-29 14:07:26,249 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:26,249 - my logger - INFO - 请求方法：post
+2022-11-29 14:07:26,249 - my logger - INFO - 请求地址：tag/create?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ
+2022-11-29 14:07:26,249 - my logger - INFO - 请求参数：{'json': {'tagname': '测试删除标签 ,.;/*'}}
+2022-11-29 14:07:26,249 - my logger - INFO - 新建标签，响应信息为：{'errcode': 0, 'errmsg': 'created', 'tagid': 1}
+2022-11-29 14:07:26,453 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:26,453 - my logger - INFO - 请求方法：get
+2022-11-29 14:07:26,453 - my logger - INFO - 请求地址：tag/list?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ
+2022-11-29 14:07:26,453 - my logger - INFO - 请求参数：{}
+2022-11-29 14:07:26,453 - my logger - INFO - 获取标签列表，响应信息为：{'errcode': 0, 'errmsg': 'ok', 'taglist': [{'tagid': 1, 'tagname': '测试删除标签 ,.;/*'}]}
+2022-11-29 14:07:26,703 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:26,703 - my logger - INFO - 请求方法：get
+2022-11-29 14:07:26,703 - my logger - INFO - 请求地址：tag/delete?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ&tagid=1
+2022-11-29 14:07:26,703 - my logger - INFO - 请求参数：{}
+2022-11-29 14:07:26,703 - my logger - INFO - 删除标签，响应信息为：{'errcode': 0, 'errmsg': 'deleted'}
+2022-11-29 14:07:26,937 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:26,937 - my logger - INFO - 请求方法：get
+2022-11-29 14:07:26,937 - my logger - INFO - 请求地址：tag/list?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ
+2022-11-29 14:07:26,937 - my logger - INFO - 请求参数：{}
+2022-11-29 14:07:26,937 - my logger - INFO - 获取标签列表，响应信息为：{'errcode': 0, 'errmsg': 'ok', 'taglist': []}
+2022-11-29 14:07:27,327 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:27,327 - my logger - INFO - 请求方法：post
+2022-11-29 14:07:27,327 - my logger - INFO - 请求地址：tag/create?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ
+2022-11-29 14:07:27,327 - my logger - INFO - 请求参数：{'json': {'tagname': '测试 删除标签333'}}
+2022-11-29 14:07:27,327 - my logger - INFO - 新建标签，响应信息为：{'errcode': 0, 'errmsg': 'created', 'tagid': 1}
+2022-11-29 14:07:27,546 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:27,546 - my logger - INFO - 请求方法：get
+2022-11-29 14:07:27,546 - my logger - INFO - 请求地址：tag/list?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ
+2022-11-29 14:07:27,546 - my logger - INFO - 请求参数：{}
+2022-11-29 14:07:27,546 - my logger - INFO - 获取标签列表，响应信息为：{'errcode': 0, 'errmsg': 'ok', 'taglist': [{'tagid': 1, 'tagname': '测试 删除标签333'}]}
+2022-11-29 14:07:27,827 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:27,827 - my logger - INFO - 请求方法：get
+2022-11-29 14:07:27,827 - my logger - INFO - 请求地址：tag/delete?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ&tagid=1
+2022-11-29 14:07:27,827 - my logger - INFO - 请求参数：{}
+2022-11-29 14:07:27,827 - my logger - INFO - 删除标签，响应信息为：{'errcode': 0, 'errmsg': 'deleted'}
+2022-11-29 14:07:28,015 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:28,015 - my logger - INFO - 请求方法：get
+2022-11-29 14:07:28,015 - my logger - INFO - 请求地址：tag/list?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ
+2022-11-29 14:07:28,015 - my logger - INFO - 请求参数：{}
+2022-11-29 14:07:28,015 - my logger - INFO - 获取标签列表，响应信息为：{'errcode': 0, 'errmsg': 'ok', 'taglist': []}
+2022-11-29 14:07:28,421 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:28,421 - my logger - INFO - 请求方法：post
+2022-11-29 14:07:28,421 - my logger - INFO - 请求地址：tag/create?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ
+2022-11-29 14:07:28,421 - my logger - INFO - 请求参数：{'json': {'tagname': '测试更新标签名字'}}
+2022-11-29 14:07:28,421 - my logger - INFO - 新建标签，响应信息为：{'errcode': 0, 'errmsg': 'created', 'tagid': 1}
+2022-11-29 14:07:28,595 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:28,595 - my logger - INFO - 请求方法：get
+2022-11-29 14:07:28,595 - my logger - INFO - 请求地址：tag/list?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ
+2022-11-29 14:07:28,595 - my logger - INFO - 请求参数：{}
+2022-11-29 14:07:28,595 - my logger - INFO - 获取标签列表，响应信息为：{'errcode': 0, 'errmsg': 'ok', 'taglist': [{'tagid': 1, 'tagname': '测试更新标签名字'}]}
+2022-11-29 14:07:28,845 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:28,845 - my logger - INFO - 请求方法：post
+2022-11-29 14:07:28,845 - my logger - INFO - 请求地址：tag/update?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ
+2022-11-29 14:07:28,845 - my logger - INFO - 请求参数：{'json': {'tagid': 1, 'tagname': '测试更新标签名字李畅'}}
+2022-11-29 14:07:28,845 - my logger - INFO - 更新标签名，响应信息为：{'errcode': 0, 'errmsg': 'updated'}
+2022-11-29 14:07:29,080 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:29,080 - my logger - INFO - 请求方法：get
+2022-11-29 14:07:29,080 - my logger - INFO - 请求地址：tag/delete?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ&tagid=1
+2022-11-29 14:07:29,080 - my logger - INFO - 请求参数：{}
+2022-11-29 14:07:29,095 - my logger - INFO - 删除标签，响应信息为：{'errcode': 0, 'errmsg': 'deleted'}
+2022-11-29 14:07:29,611 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:29,611 - my logger - INFO - 请求方法：post
+2022-11-29 14:07:29,611 - my logger - INFO - 请求地址：tag/create?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ
+2022-11-29 14:07:29,611 - my logger - INFO - 请求参数：{'json': {'tagname': '再来一次'}}
+2022-11-29 14:07:29,611 - my logger - INFO - 新建标签，响应信息为：{'errcode': 0, 'errmsg': 'created', 'tagid': 1}
+2022-11-29 14:07:29,861 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:29,861 - my logger - INFO - 请求方法：get
+2022-11-29 14:07:29,861 - my logger - INFO - 请求地址：tag/list?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ
+2022-11-29 14:07:29,861 - my logger - INFO - 请求参数：{}
+2022-11-29 14:07:29,861 - my logger - INFO - 获取标签列表，响应信息为：{'errcode': 0, 'errmsg': 'ok', 'taglist': [{'tagid': 1, 'tagname': '再来一次'}]}
+2022-11-29 14:07:30,080 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:30,080 - my logger - INFO - 请求方法：post
+2022-11-29 14:07:30,095 - my logger - INFO - 请求地址：tag/update?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ
+2022-11-29 14:07:30,095 - my logger - INFO - 请求参数：{'json': {'tagid': 1, 'tagname': '再来一次沈丽娟'}}
+2022-11-29 14:07:30,095 - my logger - INFO - 更新标签名，响应信息为：{'errcode': 0, 'errmsg': 'updated'}
+2022-11-29 14:07:30,314 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:30,314 - my logger - INFO - 请求方法：get
+2022-11-29 14:07:30,314 - my logger - INFO - 请求地址：tag/delete?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ&tagid=1
+2022-11-29 14:07:30,314 - my logger - INFO - 请求参数：{}
+2022-11-29 14:07:30,314 - my logger - INFO - 删除标签，响应信息为：{'errcode': 0, 'errmsg': 'deleted'}
+2022-11-29 14:07:30,689 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:30,689 - my logger - INFO - 请求方法：post
+2022-11-29 14:07:30,689 - my logger - INFO - 请求地址：tag/create?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ
+2022-11-29 14:07:30,689 - my logger - INFO - 请求参数：{'json': {'tagname': '浅浅测试三个吧'}}
+2022-11-29 14:07:30,689 - my logger - INFO - 新建标签，响应信息为：{'errcode': 0, 'errmsg': 'created', 'tagid': 1}
+2022-11-29 14:07:30,892 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:30,892 - my logger - INFO - 请求方法：get
+2022-11-29 14:07:30,892 - my logger - INFO - 请求地址：tag/list?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ
+2022-11-29 14:07:30,892 - my logger - INFO - 请求参数：{}
+2022-11-29 14:07:30,892 - my logger - INFO - 获取标签列表，响应信息为：{'errcode': 0, 'errmsg': 'ok', 'taglist': [{'tagid': 1, 'tagname': '浅浅测试三个吧'}]}
+2022-11-29 14:07:31,111 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:31,111 - my logger - INFO - 请求方法：post
+2022-11-29 14:07:31,111 - my logger - INFO - 请求地址：tag/update?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ
+2022-11-29 14:07:31,111 - my logger - INFO - 请求参数：{'json': {'tagid': 1, 'tagname': '浅浅测试三个吧王建'}}
+2022-11-29 14:07:31,111 - my logger - INFO - 更新标签名，响应信息为：{'errcode': 0, 'errmsg': 'updated'}
+2022-11-29 14:07:31,313 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:31,313 - my logger - INFO - 请求方法：get
+2022-11-29 14:07:31,313 - my logger - INFO - 请求地址：tag/delete?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ&tagid=1
+2022-11-29 14:07:31,313 - my logger - INFO - 请求参数：{}
+2022-11-29 14:07:31,329 - my logger - INFO - 删除标签，响应信息为：{'errcode': 0, 'errmsg': 'deleted'}
+2022-11-29 14:07:31,642 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:31,642 - my logger - INFO - 请求方法：post
+2022-11-29 14:07:31,642 - my logger - INFO - 请求地址：tag/create?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ
+2022-11-29 14:07:31,642 - my logger - INFO - 请求参数：{'json': {'tagname': '随便查查罢了 '}}
+2022-11-29 14:07:31,642 - my logger - INFO - 新建标签，响应信息为：{'errcode': 0, 'errmsg': 'created', 'tagid': 1}
+2022-11-29 14:07:31,813 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:31,813 - my logger - INFO - 请求方法：get
+2022-11-29 14:07:31,813 - my logger - INFO - 请求地址：tag/list?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ
+2022-11-29 14:07:31,813 - my logger - INFO - 请求参数：{}
+2022-11-29 14:07:31,813 - my logger - INFO - 获取标签列表，响应信息为：{'errcode': 0, 'errmsg': 'ok', 'taglist': [{'tagid': 1, 'tagname': '随便查查罢了 '}]}
+2022-11-29 14:07:32,048 - my logger - INFO - =====开始发送请求===
+2022-11-29 14:07:32,048 - my logger - INFO - 请求方法：get
+2022-11-29 14:07:32,048 - my logger - INFO - 请求地址：tag/delete?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ&tagid=1
+2022-11-29 14:07:32,048 - my logger - INFO - 请求参数：{}
+2022-11-29 14:07:32,048 - my logger - INFO - 删除标签，响应信息为：{'errcode': 0, 'errmsg': 'deleted'}

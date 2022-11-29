@@ -1,0 +1,25 @@
+[32mINFO    [0m my logger:base_api.py:27 =====开始发送请求===
+[32mINFO    [0m my logger:base_api.py:28 请求方法：post
+[32mINFO    [0m my logger:base_api.py:29 请求地址：department/create?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ
+[32mINFO    [0m my logger:base_api.py:30 请求参数：{'json': {'name': '测试新增 222', 'name_en': 'test_en222', 'parentid': 1, 'order': 1, 'id': 3}}
+[32mINFO    [0m my logger:department.py:17 新增部门，响应信息为：{'errcode': 0, 'errmsg': 'created', 'id': 3}
+[32mINFO    [0m my logger:base_api.py:27 =====开始发送请求===
+[32mINFO    [0m my logger:base_api.py:28 请求方法：get
+[32mINFO    [0m my logger:base_api.py:29 请求地址：department/simplelist
+[32mINFO    [0m my logger:base_api.py:30 请求参数：{'params': {'access_token': '0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ'}}
+[32mINFO    [0m my logger:department.py:36 查询部门列表，响应信息为：{'errcode': 0, 'errmsg': 'ok', 'department_id': [{'id': 1, 'parentid': 0, 'order': 100000000}, {'id': 2, 'parentid': 1, 'order': 100000000}, {'id': 4, 'parentid': 1, 'order': 99998000}, {'id': 8, 'parentid': 2, 'order': 99997000}, {'id': 9, 'parentid': 2, 'order': 99996000}, {'id': 10, 'parentid': 2, 'order': 99995000}, {'id': 11, 'parentid': 2, 'order': 99994000}, {'id': 12, 'parentid': 2, 'order': 99993000}, {'id': 13, 'parentid': 2, 'order': 99992000}, {'id': 14, 'parentid': 2, 'order': 99991000}, {'id': 15, 'parentid': 2, 'order': 99990000}, {'id': 16, 'parentid': 2, 'order': 99989000}, {'id': 17, 'parentid': 2, 'order': 99988000}, {'id': 18, 'parentid': 2, 'order': 99987000}, {'id': 19, 'parentid': 2, 'order': 99986000}, {'id': 20, 'parentid': 2, 'order': 99985000}, {'id': 21, 'parentid': 2, 'order': 99984000}, {'id': 22, 'parentid': 2, 'order': 99983000}, {'id': 23, 'parentid': 2, 'order': 99982000}, {'id': 26, 'parentid': 2, 'order': 99980000}, {'id': 3, 'parentid': 1, 'order': 1}]}
+[32mINFO    [0m my logger:base_api.py:27 =====开始发送请求===
+[32mINFO    [0m my logger:base_api.py:28 请求方法：post
+[32mINFO    [0m my logger:base_api.py:29 请求地址：department/update?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ
+[32mINFO    [0m my logger:base_api.py:30 请求参数：{'json': {'name': '测试新增 222===修改', 'id': 3}}
+[32mINFO    [0m my logger:department.py:45 更新部门信息，响应信息为：{'errcode': 0, 'errmsg': 'updated'}
+[32mINFO    [0m my logger:base_api.py:27 =====开始发送请求===
+[32mINFO    [0m my logger:base_api.py:28 请求方法：get
+[32mINFO    [0m my logger:base_api.py:29 请求地址：department/delete?access_token=0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ&id=3
+[32mINFO    [0m my logger:base_api.py:30 请求参数：{}
+[32mINFO    [0m my logger:department.py:55 删除部门，响应信息为：{'errcode': 0, 'errmsg': 'deleted'}
+[32mINFO    [0m my logger:base_api.py:27 =====开始发送请求===
+[32mINFO    [0m my logger:base_api.py:28 请求方法：get
+[32mINFO    [0m my logger:base_api.py:29 请求地址：department/simplelist
+[32mINFO    [0m my logger:base_api.py:30 请求参数：{'params': {'access_token': '0Fta6Yh8G2ESZjHb2QRDFm_Ko0o0xliZwbuPFCzSPz8fyyGCLOHJWWaqNCZgdcl7BreLChE-4SrwRCPkKTO3NgcRh2K-EkoSoQOs_qWSVQQ6WylKa2kTSi_bCnrUOD4evoP2sH0aTuu9MP-PWqod5WF2ICXX6bL1kmShIIhYWra2oVmnIz5SqaSlX4GfLzXIFElT0gXtyPTtrGT7c_JeAQ'}}
+[32mINFO    [0m my logger:department.py:36 查询部门列表，响应信息为：{'errcode': 0, 'errmsg': 'ok', 'department_id': [{'id': 1, 'parentid': 0, 'order': 100000000}, {'id': 2, 'parentid': 1, 'order': 100000000}, {'id': 21, 'parentid': 2, 'order': 99984000}, {'id': 4, 'parentid': 1, 'order': 99998000}, {'id': 26, 'parentid': 2, 'order': 99980000}, {'id': 22, 'parentid': 2, 'order': 99983000}, {'id': 23, 'parentid': 2, 'order': 99982000}, {'id': 8, 'parentid': 2, 'order': 99997000}, {'id': 9, 'parentid': 2, 'order': 99996000}, {'id': 10, 'parentid': 2, 'order': 99995000}, {'id': 11, 'parentid': 2, 'order': 99994000}, {'id': 12, 'parentid': 2, 'order': 99993000}, {'id': 13, 'parentid': 2, 'order': 99992000}, {'id': 14, 'parentid': 2, 'order': 99991000}, {'id': 15, 'parentid': 2, 'order': 99990000}, {'id': 16, 'parentid': 2, 'order': 99989000}, {'id': 17, 'parentid': 2, 'order': 99988000}, {'id': 18, 'parentid': 2, 'order': 99987000}, {'id': 19, 'parentid': 2, 'order': 99986000}, {'id': 20, 'parentid': 2, 'order': 99985000}]}
