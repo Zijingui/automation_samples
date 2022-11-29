@@ -1,6 +1,3 @@
-# @FileName  :department.py
-# @Time      :2022/11/12 22:34
-# @Author    :Zijin Gui
 from api.contact.base_api import BaseApi
 
 

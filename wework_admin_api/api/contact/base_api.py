@@ -1,9 +1,5 @@
-# @FileName  :base_api.py
-# @Time      :2022/11/12 22:34
-# @Author    :Zijin Gui
 import os
 import requests
-
 from utils.logger_utils import create_logger
 
 
